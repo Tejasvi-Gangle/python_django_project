@@ -1,0 +1,1679 @@
+<!DOCTYPE html><html lang="en-US" prefix="og: https://ogp.me/ns#"><head><meta name="facebook-domain-verification" content="ly8ku1hs860dfh31acxpatne8fstop" /><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1" /> <script type="rocketlazyloadscript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TK66B6J');</script> <script>if ( window.location == window.parent.location )
+    {
+	  if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}
+	}</script><script>if ( window.location == window.parent.location )
+    {
+	class RocketLazyLoadScripts{constructor(e){this.triggerEvents=e,this.eventOptions={passive:!0},this.userEventListener=this.triggerListener.bind(this),this.delayedScripts={normal:[],async:[],defer:[]},this.allJQueries=[]}_addUserInteractionListener(e){this.triggerEvents.forEach((t=>window.addEventListener(t,e.userEventListener,e.eventOptions)))}_removeUserInteractionListener(e){this.triggerEvents.forEach((t=>window.removeEventListener(t,e.userEventListener,e.eventOptions)))}triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}async _loadEverythingNow(){this._delayEventListeners(),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async),await this._triggerDOMContentLoaded(),await this._triggerWindowLoad(),window.dispatchEvent(new Event("rocket-allScriptsLoaded"))}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e=>{e.hasAttribute("src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)}))}async _transformScript(e){return await this._requestAnimFrame(),new Promise((t=>{const n=document.createElement("script");let r;[...e.attributes].forEach((e=>{let t=e.nodeName;"type"!==t&&("data-rocket-type"===t&&(t="type",r=e.nodeValue),n.setAttribute(t,e.nodeValue))})),e.hasAttribute("src")?(n.addEventListener("load",t),n.addEventListener("error",t)):(n.text=e.text,t()),e.parentNode.replaceChild(n,e)}))}async _loadScriptsFromList(e){const t=e.shift();return t?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){var e=document.createDocumentFragment();[...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async].forEach((t=>{const n=t.getAttribute("src");if(n){const t=document.createElement("link");t.href=n,t.rel="preload",t.as="script",e.appendChild(t)}})),document.head.appendChild(e)}_delayEventListeners(){let e={};function t(t,n){!function(t){function n(n){return e[t].eventsToRewrite.indexOf(n)>=0?"rocket-"+n:n}e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(n)}function n(e,t){let n=e[t];Object.defineProperty(e,t,{get:()=>n||function(){},set(r){e["rocket"+t]=n=r}})}t(document,"DOMContentLoaded"),t(window,"DOMContentLoaded"),t(window,"load"),t(window,"pageshow"),t(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}_delayJQueryReady(e){let t=window.jQuery;Object.defineProperty(window,"jQuery",{get:()=>t,set(n){if(n&&n.fn&&!e.allJQueries.includes(n)){n.fn.ready=n.fn.init.prototype.ready=function(t){e.domReadyFired?t.bind(document)(n):document.addEventListener("rocket-DOMContentLoaded",(()=>t.bind(document)(n)))};const t=n.fn.on;n.fn.on=n.fn.init.prototype.on=function(){if(this[0]===window){function e(e){return e.split(" ").map((e=>"load"===e||0===e.indexOf("load.")?"rocket-jquery-load":e)).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{delete Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]}))}return t.apply(this,arguments),this},e.allJQueries.push(n)}t=n}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._requestAnimFrame(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-load")),await this._requestAnimFrame(),window.rocketonload&&window.rocketonload(),await this._requestAnimFrame(),this.allJQueries.forEach((e=>e(window).trigger("rocket-jquery-load"))),window.dispatchEvent(new Event("rocket-pageshow")),await this._requestAnimFrame(),window.rocketonpageshow&&window.rocketonpageshow()}_handleDocumentWrite(){const e=new Map;document.write=document.writeln=function(t){const n=document.currentScript,r=document.createRange(),i=n.parentElement;let o=e.get(n);void 0===o&&(o=n.nextSibling,e.set(n,o));const a=document.createDocumentFragment();r.setStart(a,0),a.appendChild(r.createContextualFragment(t)),i.insertBefore(a,o)}}async _requestAnimFrame(){return new Promise((e=>requestAnimationFrame(e)))}static run(){const e=new RocketLazyLoadScripts(["keydown","mousemove","touchmove","touchstart","touchend","wheel"]);e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();
+	}</script> <link rel="preload" href="https://www.karobargain.com/wp-content/themes/twentytwentyone-child/fonts/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2" as="font" type="font/woff2" crossorigin /><title>Best Lipstick Brands in India &raquo; karobargain.com</title><meta name="description" content="All you need to add a colour pop to your dull day is a bright shade of lipstick. Be it a bad hair day, a stressful work day, or a celebration.  Lipstick has" /><meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" /><link rel="canonical" href="https://www.karobargain.com/recommend/best-lipstick-brands-in-india/" /><meta property="og:locale" content="en_US" /><meta property="og:type" content="article" /><meta property="og:title" content="Best Lipstick Brands in India &raquo; karobargain.com" /><meta property="og:description" content="All you need to add a colour pop to your dull day is a bright shade of lipstick. Be it a bad hair day, a stressful work day, or a celebration.  Lipstick has" /><meta property="og:url" content="https://www.karobargain.com/recommend/best-lipstick-brands-in-india/" /><meta property="og:site_name" content="karobargain.com" /><meta property="article:section" content="Recommend" /><meta property="og:updated_time" content="2023-02-15T22:07:04+05:30" /><meta property="og:image" content="https://www.karobargain.com/wp-content/uploads/2023/01/Best-liPSTICK-BRANDS-IN-INDIA-2.jpg" /><meta property="og:image:secure_url" content="https://www.karobargain.com/wp-content/uploads/2023/01/Best-liPSTICK-BRANDS-IN-INDIA-2.jpg" /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:image:alt" content="best lipstick brands in india" /><meta property="og:image:type" content="image/jpeg" /><meta property="article:published_time" content="2023-01-12T01:02:58+05:30" /><meta property="article:modified_time" content="2023-02-15T22:07:04+05:30" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="Best Lipstick Brands in India &raquo; karobargain.com" /><meta name="twitter:description" content="All you need to add a colour pop to your dull day is a bright shade of lipstick. Be it a bad hair day, a stressful work day, or a celebration.  Lipstick has" /><meta name="twitter:image" content="https://www.karobargain.com/wp-content/uploads/2023/01/Best-liPSTICK-BRANDS-IN-INDIA-2.jpg" /><meta name="twitter:label1" content="Written by" /><meta name="twitter:data1" content="Susmita Nath" /><meta name="twitter:label2" content="Time to read" /><meta name="twitter:data2" content="5 minutes" /> <script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[{"@type":["Organization","Person"],"@id":"https://www.karobargain.com/#person","name":"www.karobargain.com","url":"https://www.karobargain.com"},{"@type":"WebSite","@id":"https://www.karobargain.com/#website","url":"https://www.karobargain.com","name":"karobargain.com","publisher":{"@id":"https://www.karobargain.com/#person"},"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://www.karobargain.com/wp-content/uploads/2023/01/Best-liPSTICK-BRANDS-IN-INDIA-2.jpg","url":"https://www.karobargain.com/wp-content/uploads/2023/01/Best-liPSTICK-BRANDS-IN-INDIA-2.jpg","width":"1200","height":"600","caption":"best lipstick brands in india","inLanguage":"en-US"},{"@type":"BreadcrumbList","@id":"https://www.karobargain.com/recommend/best-lipstick-brands-in-india/#breadcrumb","itemListElement":[{"@type":"ListItem","position":"1","item":{"@id":"https://www.karobargain.com","name":"Home"}},{"@type":"ListItem","position":"2","item":{"@id":"https://www.karobargain.com/recommend/","name":"Recommend"}},{"@type":"ListItem","position":"3","item":{"@id":"https://www.karobargain.com/recommend/best-lipstick-brands-in-india/","name":"Best Lipstick Brands in India"}}]},{"@type":"WebPage","@id":"https://www.karobargain.com/recommend/best-lipstick-brands-in-india/#webpage","url":"https://www.karobargain.com/recommend/best-lipstick-brands-in-india/","name":"Best Lipstick Brands in India &raquo; karobargain.com","datePublished":"2023-01-12T01:02:58+05:30","dateModified":"2023-02-15T22:07:04+05:30","isPartOf":{"@id":"https://www.karobargain.com/#website"},"primaryImageOfPage":{"@id":"https://www.karobargain.com/wp-content/uploads/2023/01/Best-liPSTICK-BRANDS-IN-INDIA-2.jpg"},"inLanguage":"en-US","breadcrumb":{"@id":"https://www.karobargain.com/recommend/best-lipstick-brands-in-india/#breadcrumb"}},{"@type":"Person","@id":"https://www.karobargain.com/author/susmita/","name":"Susmita Nath","url":"https://www.karobargain.com/author/susmita/","image":{"@type":"ImageObject","@id":"https://www.karobargain.com/wp-content/uploads/2022/12/Susmita-96x96.jpg","url":"https://www.karobargain.com/wp-content/uploads/2022/12/Susmita-96x96.jpg","caption":"Susmita Nath","inLanguage":"en-US"}},{"@type":"BlogPosting","headline":"Best Lipstick Brands in India &raquo; karobargain.com","keywords":"best lipstick brands","datePublished":"2023-01-12T01:02:58+05:30","dateModified":"2023-02-15T22:07:04+05:30","articleSection":"Recommend","author":{"@id":"https://www.karobargain.com/author/susmita/","name":"Susmita Nath"},"publisher":{"@id":"https://www.karobargain.com/#person"},"description":"All you need to add a colour pop to your dull day is a bright shade of lipstick. Be it a bad hair day, a stressful work day, or a celebration.\u00a0 Lipstick has","name":"Best Lipstick Brands in India &raquo; karobargain.com","@id":"https://www.karobargain.com/recommend/best-lipstick-brands-in-india/#richSnippet","isPartOf":{"@id":"https://www.karobargain.com/recommend/best-lipstick-brands-in-india/#webpage"},"image":{"@id":"https://www.karobargain.com/wp-content/uploads/2023/01/Best-liPSTICK-BRANDS-IN-INDIA-2.jpg"},"inLanguage":"en-US","mainEntityOfPage":{"@id":"https://www.karobargain.com/recommend/best-lipstick-brands-in-india/#webpage"}}]}</script> <link href='https://fonts.gstatic.com' crossorigin='anonymous' rel='preconnect' /><style id='global-styles-inline-css'>body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #FFFFFF;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--dark-gray: #28303D;--wp--preset--color--gray: #39414D;--wp--preset--color--green: #D1E4DD;--wp--preset--color--blue: #D1DFE4;--wp--preset--color--purple: #D1D1E4;--wp--preset--color--red: #E4D1D1;--wp--preset--color--orange: #E4DAD1;--wp--preset--color--yellow: #EEEADD;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--purple-to-yellow: linear-gradient(160deg, #D1D1E4 0%, #EEEADD 100%);--wp--preset--gradient--yellow-to-purple: linear-gradient(160deg, #EEEADD 0%, #D1D1E4 100%);--wp--preset--gradient--green-to-yellow: linear-gradient(160deg, #D1E4DD 0%, #EEEADD 100%);--wp--preset--gradient--yellow-to-green: linear-gradient(160deg, #EEEADD 0%, #D1E4DD 100%);--wp--preset--gradient--red-to-yellow: linear-gradient(160deg, #E4D1D1 0%, #EEEADD 100%);--wp--preset--gradient--yellow-to-red: linear-gradient(160deg, #EEEADD 0%, #E4D1D1 100%);--wp--preset--gradient--purple-to-red: linear-gradient(160deg, #D1D1E4 0%, #E4D1D1 100%);--wp--preset--gradient--red-to-purple: linear-gradient(160deg, #E4D1D1 0%, #D1D1E4 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 18px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 24px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--extra-small: 16px;--wp--preset--font-size--normal: 20px;--wp--preset--font-size--extra-large: 40px;--wp--preset--font-size--huge: 96px;--wp--preset--font-size--gigantic: 144px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}</style><link rel='stylesheet' id='contact-form-7-css' href='https://www.karobargain.com/wp-content/plugins/contact-form-7/includes/css/styles.css' media='all' /><link rel='stylesheet' id='wpdreams-asl-basic-css' href='https://www.karobargain.com/wp-content/plugins/ajax-search-lite/css/style.basic.css' media='all' /><link rel='stylesheet' id='wpdreams-ajaxsearchlite-css' href='https://www.karobargain.com/wp-content/plugins/ajax-search-lite/css/style-underline.css' media='all' /><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://www.karobargain.com/feed/" /><meta property="og:image" content="https://www.karobargain.com/wp-content/uploads/2023/01/Best-liPSTICK-BRANDS-IN-INDIA-2.jpg" /><style>div[id*='ajaxsearchlitesettings'].searchsettings .asl_option_inner label {
+						font-size: 0px !important;
+						color: rgba(0, 0, 0, 0);
+					}
+					div[id*='ajaxsearchlitesettings'].searchsettings .asl_option_inner label:after {
+						font-size: 11px !important;
+						position: absolute;
+						top: 0;
+						left: 0;
+						z-index: 1;
+					}
+					.asl_w_container {
+						width: 100%;
+						margin: 0px 0px 0px 0px;
+						min-width: 200px;
+					}
+					div[id*='ajaxsearchlite'].asl_m {
+						width: 100%;
+					}
+					div[id*='ajaxsearchliteres'].wpdreams_asl_results div.resdrg span.highlighted {
+						font-weight: bold;
+						color: rgba(217, 49, 43, 1);
+						background-color: rgba(238, 238, 238, 1);
+					}
+					div[id*='ajaxsearchliteres'].wpdreams_asl_results .results img.asl_image {
+						width: 190px;
+						height: 110px;
+						object-fit: cover;
+					}
+					div.asl_r .results {
+						max-height: none;
+					}
+				
+							.asl_w, .asl_w * {font-family:"Poppins" !important;}
+							.asl_m input[type=search]::placeholder{font-family:"Poppins" !important;}
+							.asl_m input[type=search]::-webkit-input-placeholder{font-family:"Poppins" !important;}
+							.asl_m input[type=search]::-moz-placeholder{font-family:"Poppins" !important;}
+							.asl_m input[type=search]:-ms-input-placeholder{font-family:"Poppins" !important;}
+						
+						div.asl_r.asl_w.vertical .results .item::after {
+							display: block;
+							position: absolute;
+							bottom: 0;
+							content: '';
+							height: 1px;
+							width: 100%;
+							background: #D8D8D8;
+						}
+						div.asl_r.asl_w.vertical .results .item.asl_last_item::after {
+							display: none;
+						}</style><link rel="icon" href="https://www.karobargain.com/wp-content/uploads/2021/11/kb_favicon.png" sizes="32x32" /><link rel="icon" href="https://www.karobargain.com/wp-content/uploads/2021/11/kb_favicon.png" sizes="192x192" /><link rel="apple-touch-icon" href="https://www.karobargain.com/wp-content/uploads/2021/11/kb_favicon.png" /><meta name="msapplication-TileImage" content="https://www.karobargain.com/wp-content/uploads/2021/11/kb_favicon.png" /><style>body span.hd-off { font-size: 1.5em; }
+		.navigation-search {
+			position: absolute;
+			left: -99999px;
+			pointer-events: none;
+			visibility: hidden;
+			z-index: 20;
+			width: 820px;
+			transition: opacity 100ms ease-in-out;
+			opacity: 0;
+		}
+		ul.mobile-sub-menu{
+		    list-style: none;
+			padding-inline-start: 0px;
+			white-space: nowrap;
+			overflow-x: scroll;
+		}
+		.mobile-sub-menu li {
+			display: inline-flex;
+			overflow-x: scroll;
+			padding-left: 10px;
+			padding-bottom: 10px;
+		}
+		@media (max-width: 767px){
+			nav.table-of-contents.desktop-toc {
+				display: none;
+			}
+			.latest-stories .entry-points img { height: auto; }
+		}
+		@media (max-width: 500px){
+			/*.share li.tele {
+				display: none !important;
+			}*/
+			body ul.share li {
+				width: 50%;
+			}
+		}
+		p.top-read-more-link { cursor: pointer; }
+		img { max-width: 100%; }
+	ul.share {
+		text-align: center;
+		list-style: none;
+	  padding-inline-start: unset;
+	}
+	  ul.share li{
+	   padding:0 5px;
+		display: inline-block;
+		list-style:none;
+	}
+	.single .post-details {
+		text-align: center;
+	}
+		.user-menu {
+    cursor: pointer;
+}
+		.user-category {
+    position: absolute;
+    background: #fff;
+    width: 150px;
+    text-align: left;
+    padding: 10px 10px;
+    z-index: 99;
+    margin-top: 7px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 0 0 6px 0 #b9b9b9a6;
+			    max-height: 150px;
+			    margin-left: 2%;
+}
+		.logged-username {
+    width: 42%;
+    text-align: right;
+}
+		.user-category ul {
+		margin-bottom: 0;
+    list-style: none;
+    padding-inline-start: 0;
+}
+		.user-category li a {
+    color: #000;
+    text-decoration: none;
+}
+		.user-category li  {
+    padding-bottom:10px;
+}
+		li.logout-link a {
+    color: #f61137;
+}
+	.single .post-content h2 {
+		font-weight: 600 !important;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+		.side-menu-toggle { cursor: pointer; }
+		.entry-points {
+			position: relative;
+			display: flex;
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: -ms-flexbox;
+		}
+		.entry-points img {
+			cursor: pointer;
+			width: 60px;
+			height: 60px;
+			border-radius: 100%;
+			background-clip: content-box;
+			border: 2px solid;
+			padding: 3px;
+			position: relative;
+			left: 50%;
+			transform: translate3d(-50%, 0, 0);
+			margin: 5px 0px;
+		}</style><link rel="stylesheet" href="https://www.karobargain.com/wp-content/themes/twentytwentyone-child/style.css"><style>.login{width:60%;}
+		body a.show-all.offer-cta { display: inline-block!important }</style><style>@charset "UTF-8";/*!
+ * Bootstrap v5.1.2 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */:root{--bs-blue:#0d6efd;--bs-indigo:#6610f2;--bs-purple:#6f42c1;--bs-pink:#d63384;--bs-red:#dc3545;--bs-orange:#fd7e14;--bs-yellow:#ffc107;--bs-green:#198754;--bs-teal:#20c997;--bs-cyan:#0dcaf0;--bs-white:#fff;--bs-gray:#6c757d;--bs-gray-dark:#343a40;--bs-gray-100:#f8f9fa;--bs-gray-200:#e9ecef;--bs-gray-300:#dee2e6;--bs-gray-400:#ced4da;--bs-gray-500:#adb5bd;--bs-gray-600:#6c757d;--bs-gray-700:#495057;--bs-gray-800:#343a40;--bs-gray-900:#212529;--bs-primary:#0d6efd;--bs-secondary:#6c757d;--bs-success:#198754;--bs-info:#0dcaf0;--bs-warning:#ffc107;--bs-danger:#dc3545;--bs-light:#f8f9fa;--bs-dark:#212529;--bs-primary-rgb:13,110,253;--bs-secondary-rgb:108,117,125;--bs-success-rgb:25,135,84;--bs-info-rgb:13,202,240;--bs-warning-rgb:255,193,7;--bs-danger-rgb:220,53,69;--bs-light-rgb:248,249,250;--bs-dark-rgb:33,37,41;--bs-white-rgb:255,255,255;--bs-black-rgb:0,0,0;--bs-body-color-rgb:33,37,41;--bs-body-bg-rgb:255,255,255;--bs-font-sans-serif:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--bs-font-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;--bs-gradient:linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));--bs-body-font-family:var(--bs-font-sans-serif);--bs-body-font-size:1rem;--bs-body-font-weight:400;--bs-body-line-height:1.5;--bs-body-color:#212529;--bs-body-bg:#fff}*,::after,::before{box-sizing:border-box}@media (prefers-reduced-motion:no-preference){:root{scroll-behavior:smooth}}body{margin:0;font-family:var(--bs-body-font-family);font-size:var(--bs-body-font-size);font-weight:var(--bs-body-font-weight);line-height:var(--bs-body-line-height);color:var(--bs-body-color);text-align:var(--bs-body-text-align);background-color:var(--bs-body-bg);-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent}hr{margin:1rem 0;color:inherit;background-color:currentColor;border:0;opacity:.25}hr:not([size]){height:1px}.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{margin-top:0;margin-bottom:.5rem;font-weight:500;line-height:1.2}.h1,h1{font-size:calc(1.375rem + 1.5vw)}@media (min-width:1200px){.h1,h1{font-size:2.5rem}}.h2,h2{font-size:calc(1.325rem + .9vw)}@media (min-width:1200px){.h2,h2{font-size:2rem}}.h3,h3{font-size:calc(1.3rem + .6vw)}@media (min-width:1200px){.h3,h3{font-size:1.75rem}}.h4,h4{font-size:calc(1.275rem + .3vw)}@media (min-width:1200px){.h4,h4{font-size:1.5rem}}.h5,h5{font-size:1.25rem}.h6,h6{font-size:1rem}p{margin-top:0;margin-bottom:1rem}ol,ul{padding-left:2rem}dl,ol,ul{margin-top:0;margin-bottom:1rem}b,strong{font-weight:bolder}a{color:#0d6efd;text-decoration:underline}a:hover{color:#0a58ca}a:not([href]):not([class]),a:not([href]):not([class]):hover{color:inherit;text-decoration:none}img,svg{vertical-align:middle}label{display:inline-block}button{border-radius:0}button:focus:not(:focus-visible){outline:0}button,input,optgroup,select,textarea{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]:not(:disabled),[type=reset]:not(:disabled),[type=submit]:not(:disabled),button:not(:disabled){cursor:pointer}::-moz-focus-inner{padding:0;border-style:none}[type=search]{outline-offset:-2px;-webkit-appearance:textfield}::-webkit-search-decoration{-webkit-appearance:none}[hidden]{display:none!important}.img-thumbnail{padding:.25rem;background-color:#fff;border:1px solid #dee2e6;border-radius:.25rem;max-width:100%;height:auto}.container,.container-fluid,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl{width:100%;padding-right:var(--bs-gutter-x,.75rem);padding-left:var(--bs-gutter-x,.75rem);margin-right:auto;margin-left:auto}@media (min-width:576px){.container,.container-sm{max-width:540px}}@media (min-width:768px){.container,.container-md,.container-sm{max-width:720px}}@media (min-width:992px){.container,.container-lg,.container-md,.container-sm{max-width:960px}}@media (min-width:1200px){.container,.container-lg,.container-md,.container-sm,.container-xl{max-width:1140px}}@media (min-width:1400px){.container,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl{max-width:1320px}}.row{--bs-gutter-x:1.5rem;--bs-gutter-y:0;display:flex;flex-wrap:wrap;margin-top:calc(-1 * var(--bs-gutter-y));margin-right:calc(-.5 * var(--bs-gutter-x));margin-left:calc(-.5 * var(--bs-gutter-x))}.row>*{flex-shrink:0;width:100%;max-width:100%;padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-x) * .5);margin-top:var(--bs-gutter-y)}.col{flex:1 0 0%}@media (min-width:576px){.col-sm{flex:1 0 0%}.col-sm-auto{flex:0 0 auto;width:auto}.col-sm-1{flex:0 0 auto;width:8.33333333%}.col-sm-2{flex:0 0 auto;width:16.66666667%}.col-sm-3{flex:0 0 auto;width:25%}.col-sm-4{flex:0 0 auto;width:33.33333333%}.col-sm-5{flex:0 0 auto;width:41.66666667%}.col-sm-6{flex:0 0 auto;width:50%}.col-sm-7{flex:0 0 auto;width:58.33333333%}.col-sm-8{flex:0 0 auto;width:66.66666667%}.col-sm-9{flex:0 0 auto;width:75%}.col-sm-10{flex:0 0 auto;width:83.33333333%}.col-sm-11{flex:0 0 auto;width:91.66666667%}.col-sm-12{flex:0 0 auto;width:100%}}@media (min-width:768px){.col-md{flex:1 0 0%}.col-md-auto{flex:0 0 auto;width:auto}.col-md-1{flex:0 0 auto;width:8.33333333%}.col-md-2{flex:0 0 auto;width:16.66666667%}.col-md-3{flex:0 0 auto;width:25%}.col-md-4{flex:0 0 auto;width:33.33333333%}.col-md-5{flex:0 0 auto;width:41.66666667%}.col-md-6{flex:0 0 auto;width:50%}.col-md-7{flex:0 0 auto;width:58.33333333%}.col-md-8{flex:0 0 auto;width:66.66666667%}.col-md-9{flex:0 0 auto;width:75%}.col-md-10{flex:0 0 auto;width:83.33333333%}.col-md-11{flex:0 0 auto;width:91.66666667%}.col-md-12{flex:0 0 auto;width:100%}}@media (min-width:992px){.col-lg{flex:1 0 0%}.col-lg-auto{flex:0 0 auto;width:auto}.col-lg-1{flex:0 0 auto;width:8.33333333%}.col-lg-2{flex:0 0 auto;width:16.66666667%}.col-lg-3{flex:0 0 auto;width:25%}.col-lg-4{flex:0 0 auto;width:33.33333333%}.col-lg-5{flex:0 0 auto;width:41.66666667%}.col-lg-6{flex:0 0 auto;width:50%}.col-lg-7{flex:0 0 auto;width:58.33333333%}.col-lg-8{flex:0 0 auto;width:66.66666667%}.col-lg-9{flex:0 0 auto;width:75%}.col-lg-10{flex:0 0 auto;width:83.33333333%}.col-lg-11{flex:0 0 auto;width:91.66666667%}.col-lg-12{flex:0 0 auto;width:100%}}@media (min-width:1200px){.col-xl{flex:1 0 0%}.col-xl-auto{flex:0 0 auto;width:auto}.col-xl-1{flex:0 0 auto;width:8.33333333%}.col-xl-2{flex:0 0 auto;width:16.66666667%}.col-xl-3{flex:0 0 auto;width:25%}.col-xl-4{flex:0 0 auto;width:33.33333333%}.col-xl-5{flex:0 0 auto;width:41.66666667%}.col-xl-6{flex:0 0 auto;width:50%}.col-xl-7{flex:0 0 auto;width:58.33333333%}.col-xl-8{flex:0 0 auto;width:66.66666667%}.col-xl-9{flex:0 0 auto;width:75%}.col-xl-10{flex:0 0 auto;width:83.33333333%}.col-xl-11{flex:0 0 auto;width:91.66666667%}.col-xl-12{flex:0 0 auto;width:100%}}@media (min-width:1400px){.col-xxl{flex:1 0 0%}.col-xxl-auto{flex:0 0 auto;width:auto}.col-xxl-1{flex:0 0 auto;width:8.33333333%}.col-xxl-2{flex:0 0 auto;width:16.66666667%}.col-xxl-3{flex:0 0 auto;width:25%}.col-xxl-4{flex:0 0 auto;width:33.33333333%}.col-xxl-5{flex:0 0 auto;width:41.66666667%}.col-xxl-6{flex:0 0 auto;width:50%}.col-xxl-7{flex:0 0 auto;width:58.33333333%}.col-xxl-8{flex:0 0 auto;width:66.66666667%}.col-xxl-9{flex:0 0 auto;width:75%}.col-xxl-10{flex:0 0 auto;width:83.33333333%}.col-xxl-11{flex:0 0 auto;width:91.66666667%}.col-xxl-12{flex:0 0 auto;width:100%}}.btn{display:inline-block;align-self:center;font-weight:400;line-height:1.5;color:#212529;text-align:center;text-decoration:none;vertical-align:middle;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;user-select:none;background-color:transparent;border:1px solid transparent;padding:.375rem .75rem;font-size:1rem;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}@media (prefers-reduced-motion:reduce){.btn{transition:none}}.btn:hover{color:#212529}.btn-check:focus+.btn,.btn:focus{outline:0;box-shadow:0 0 0 .25rem rgba(13,110,253,.25)}.btn.disabled,.btn:disabled,fieldset:disabled .btn{pointer-events:none;opacity:.65}.btn-primary{color:#fff;background-color:#0d6efd;border-color:#0d6efd}.btn-primary:hover{color:#fff;background-color:#0b5ed7;border-color:#0a58ca}.btn-success{color:#fff;background-color:#198754;border-color:#198754}.btn-success:hover{color:#fff;background-color:#157347;border-color:#146c43}.btn-danger{color:#fff;background-color:#dc3545;border-color:#dc3545}.btn-danger:hover{color:#fff;background-color:#bb2d3b;border-color:#b02a37}.btn-danger.disabled,.btn-danger:disabled{color:#fff;background-color:#dc3545;border-color:#dc3545}.fade{transition:opacity .15s linear}@media (prefers-reduced-motion:reduce){.fade{transition:none}}.fade:not(.show){opacity:0}.collapse:not(.show){display:none}.collapsing{height:0;overflow:hidden;transition:height .35s ease}@media (prefers-reduced-motion:reduce){.collapsing{transition:none}}.collapsing.collapse-horizontal{width:0;height:auto;transition:width .35s ease}@media (prefers-reduced-motion:reduce){.collapsing.collapse-horizontal{transition:none}}table { caption-side: bottom; border-collapse: collapse; }tbody, td, tfoot, th, thead, tr { border-color: inherit; border-style: solid; border-width: 0; }ol ol,ol ul,ul ol,ul ul{margin-bottom:0}dl,ol,ul{margin-top:0;margin-bottom:1rem}ol,ul{padding-left:2rem}</style><link rel="preload" href="https://www.karobargain.com/wp-content/themes/twentytwentyone-child/fonts/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://www.karobargain.com/wp-content/themes/twentytwentyone-child/fonts/pxiEyp8kv8JHgFVrJJfecg.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://www.karobargain.com/wp-content/themes/twentytwentyone-child/fonts/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://www.karobargain.com/wp-content/themes/twentytwentyone-child/fonts/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2" as="font" type="font/woff2" crossorigin></head><body class=""> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TK66B6J"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div id="page" class="site"><header id="masthead" class=" sticky" role="banner"><div class=" desktop header" id="myHeader"><div class="row top-menu"><div class="col-sm-4 left-toggle"><div class="side-menu-toggle"><div class="notifications" style="display:flex;float:left;"><div class="notification-icon side-tool"> <span class="side-tooltiptext-top">Coming Soon</span></div></div><div class="mode" style="float: left;
+ display: flex;
+ margin-top: 3px;"><div class="day"></div><label class="toggle-theme"> <input class="mycheck" type="checkbox" aria-label="switch" placeholder="switch" /> <span class="switch"></span> </label><div class="night"></div></div></div></div><div class="col-sm-4 logo" id="hlogo"><a href="https://www.karobargain.com/" rel="home"><img src="https://www.karobargain.com/wp-content/uploads/2021/11/Logo.png" class="img-responsive lm notlazy" alt="Logo" width="168" height="73"></a></div><div class="col-sm-4 right-icons"><div class="login side-tool"> <span class="wallet-top"><noscript><img src="https://www.karobargain.com/wp-content/uploads/2022/11/wallet-top.png" alt="wallet" width="51" height="25" /></noscript><img class="lazyload" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2051%2025%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2022/11/wallet-top.png" alt="wallet" width="51" height="25" /></span> <a href="/login/" id="mylogin">Login</a></div></div></div></div><div class="mobile header" id="myHeader" style="display:none;"><div class="top-menu"><div class="left-toggle"><div class="side-menu-toggle mobile-burger" style="width:40%;"> <noscript><img src="https://www.karobargain.com/wp-content/uploads/2021/11/Burger-Menu.png" alt="menu" class="img-responsive" width="26" height="21"></noscript><img src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2026%2021%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2021/11/Burger-Menu.png" alt="menu" class="lazyload img-responsive" width="26" height="21"></div></div><div class="mobile logo mobile-logo" id="hlogo"><a href="https://www.karobargain.com/" rel="home"><img src="https://www.karobargain.com/wp-content/uploads/2021/11/Logo.png" class="img-responsive lm notlazy" alt="Logo" width="168" height="73"></a></div><div class="mobile right-icons"> <span class="wallet-top"><noscript><img src="https://www.karobargain.com/wp-content/uploads/2022/11/wallet-top.png" alt="wallet" width="51" height="25" /></noscript><img class="lazyload" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2051%2025%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2022/11/wallet-top.png" alt="wallet" width="51" height="25" /></span><div class="user-menu"> <a href="https://www.karobargain.com/login/" title="Login"> <img src="https://www.karobargain.com/wp-content/uploads/2023/02/User.png" width="24" height="24" alt="" class="dark-icon notlazy"> <img src="https://www.karobargain.com/wp-content/uploads/2023/02/User-White.png" width="24" height="24" alt="" class="white-icon notlazy"> </a></div></div></div></div></header><div class="side-menu" style="display:none;"><div class="side-fl" style=" display: flex; align-items: center; margin-bottom:25px;"><div class="close-bar"><img src="https://www.karobargain.com/wp-content/uploads/2022/12/cancel.png" class="img-responsive notlazy"></div><div class="logo" style="margin-left:15px;"><a href="https://www.karobargain.com/"><noscript><img src="https://www.karobargain.com/wp-content/uploads/2021/11/Logo.png" alt="Logo" class="img-responsive lm"></noscript><img src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2021/11/Logo.png" alt="Logo" class="lazyload img-responsive lm"></a></div></div><ul><li><a href="/coupons/">Coupons</a></li><li><a href="/deals/">Deals</a></li><li><a href="/price-history/">Price History</a></li><li><a href="/cashback/">Cashback</a></li><li><a href="/recommend/">Recommendations</a></li><li><a href="/rupee1-store/">₹1 store</a></li><li><a href="/freebies/">Freebies</a></li><li><a href="/referral-codes/">Referral Codes</a></li></ul></div><div id="content" class="site-content"><div class="mobile-sub-menu"><div class="left-menu-mobile" style="width:85%; float:left;     height: 35px;"><form method="get" class="search-form navigation-search mobile-search" action="https://www.karobargain.com/"> <input type="search" class="search-field" value="" name="s" title="Search" autofocus></form><div class="mobile-sub-menu-left"><ul class="mobile-sub-menu"><li><a href="/price-history/">Price History</a></li><li><a href="/cashback/">Cashback</a></li><li><a href="/coupons/">Coupons</a></li><li><a href="/deals/">Deals</a></li><li><a href="/recommend/">Recommendations</a></li><li><a href="/rupee1-store/">₹1 store</a></li><li><a href="/freebies/">Freebies</a></li><li><a href="/referral-codes/">Referral Codes</a></li></ul></div></div><div class="right-mobile-search"><p class="search-new"><noscript><img src="https://www.karobargain.com/wp-content/uploads/2021/11/Search.png" width="18" height="19" alt="search"></noscript><img class="lazyload" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2018%2019%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2021/11/Search.png" width="18" height="19" alt="search"></p></div></div><div class="sub-menu"><div class="row sub-menu"><div class="col-sm-9"><form method="get" class="search-form navigation-search" action="https://www.karobargain.com/"> <input type="search" class="search-field" value="" name="s" title="Search" autofocus></form><ul class="menu"><li><a href="/coupons/">Coupons</a></li><li><a href="/deals/">Deals</a></li><li><a href="https://www.karobargain.com/price-history/">Price History</a></li><li><a href="/cashback/">Cashback</a></li><li><a href="/recommend/">Recommendations</a></li><li><a href="/rupee1-store/">₹1 store</a></li><li><a href="/freebies/">Freebies</a></li><li><a href="/referral-codes/">Referral Codes</a></li></ul></div><div class="col-sm-1"><div class="desktop-search"> <span class="search-new"><span class="open-search"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512"><path d="M460.355 421.59l-106.51-106.512c20.04-27.553 31.884-61.437 31.884-98.037C385.73 124.935 310.792 50 218.685 50c-92.106 0-167.04 74.934-167.04 167.04 0 92.107 74.935 167.042 167.04 167.042 34.912 0 67.352-10.773 94.184-29.158L419.945 462l40.41-40.41zM100.63 217.04c0-65.095 52.96-118.055 118.056-118.055 65.098 0 118.057 52.96 118.057 118.056 0 65.097-52.96 118.057-118.057 118.057-65.096 0-118.055-52.96-118.055-118.056z"></path></svg></span><span class="close-search"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"> <polygon id="x-mark-icon" points="438.393,374.595 319.757,255.977 438.378,137.348 374.595,73.607 255.995,192.225 137.375,73.622 73.607,137.352 192.246,255.983 73.622,374.625 137.352,438.393 256.002,319.734 374.652,438.378 "></polygon> </svg></span></span></div></div> <script type="rocketlazyloadscript">$('.search-new').click(function() {
+						$(this).toggleClass('close');
+			     	    $('.navigation-search').toggleClass('active');
+						$('.search-field').focus();
+						/*jQuery("html body div.vertical.asl_r, html body div.vertical.asp_r").toggleClass("on");*/
+  					});
+					
+					$(document).click(function() {
+						var container = $(".logged-username");
+						if (!container.is(event.target) && !container.has(event.target).length) {
+							jQuery(".user-category").hide();
+						}
+					});</script> <style>.dark-theme .store1 h2,.dark-theme .store1 h4,.dark-theme .store1 p,.dark-theme .store1 b{color:#000 !important;}
+					@media screen and (max-width:700px){
+						::placeholder{font-size:12px;font-weight:500;}
+						form.search-form.navigation-search.mobile-search.active{width:100% !important;}
+						form.search-form.navigation-search.mobile-search.active input.search-field{width:100% !important;padding-top: 12px;opacity:1;}
+					}
+					.mobile-sub-menu{display:none;}
+					.side-menu ul li a{font-weight:600;}
+					.side-menu ul li{border-bottom: 1px solid #eee;}
+					html body .close-search { display: none; }
+					html body .close .open-search, html body .close .close-search { display: none; transition: visibility .2s,opacity .2s,transform .2s ease-in-out; -webkit-transition: visibility .2s,opacity .2s,-webkit-transform .2s ease-in-out; }
+					html body .close .close-search { display: block; }
+					#ajaxsearchlite1 .probox, div.asl_w .probox { box-shadow: 0 0 0 0 #b5b5b5 inset; }
+					html body div.asl_r.vertical.on { display: block!important; visibility: visible!important; animation-name: aslAnFadeInDrop; -webkit-animation-name: aslAnFadeInDrop; }
+					
+					img.size-full { height: auto; }
+					.wallet-amt { padding-left: 10px; font-weight: 600; padding-right: 10px; color:#000; background: #dae8ee; border-top-right-radius: 20px; border-bottom-right-radius: 20px; line-height: 26px; display: inline-block; }
+					.wallet-user { margin-left: 30px; position: relative; /*background: #dae8ee; border-top-right-radius: 10px; border-bottom-right-radius: 10px;*/ }
+					.wallet-user .white { height: 26px; }
+					.wallet-user img { position: absolute; left: -23px; }
+					.dark-theme .wallet-user .dark, .wallet-user .white { display: none }
+					.dark-theme .wallet-amt { background: #fff; }
+					.dark-theme .wallet-user .white { display: inline-block }
+					.logged-username { width: 33%; text-align: right; margin-left: 20px; }
+					.notifications { width: 30px }					
+					.col-sm-4.right-icons { justify-content: flex-end; }
+					.wallet-top { margin-right: 22px; }
+					.dark-theme .dark-icon { display: none; }
+					body:not(.dark-theme) .dark-icon { display: inline-block; }
+					.dark-theme .white-icon { display: inline-block; }
+					body:not(.dark-theme) .white-icon { display: none; }
+					@media(min-width:1200px){
+						.col-sm-4.left-toggle .notifications, .col-sm-4.left-toggle .mode { display: none; }
+						.home-content .slider img.img-responsive { width: 100%; }
+					}					
+					@media(min-width:990px) and (max-width: 1199px){
+						.col-sm-4.left-toggle { display: flex; justify-content: space-around; }
+						.col-sm-4.right-icons .notifications, .col-sm-4.right-icons .mode { display: none; }
+						.logged-username { width: 42%; }
+						.side-menu-toggle, .login.side-tool { width: auto!important; }						
+					}					
+					@media (min-width: 768px) and (max-width: 989px){
+						.mobile.right-icons { align-items: center; justify-content: space-evenly; }
+						.left-toggle { display: flex; }
+					}
+					@media(max-width: 767px){
+						.wallet-amt { font-size: 12px; font-weight: bold; }
+						.left-toggle { display: flex; }
+						.wallet-user { margin-left: 0; position: relative; }
+						.wallet-user img { height: auto; position: absolute; left: -23px; }
+						.mobile.right-icons { width: 30%; justify-content: space-around; }
+					}
+					.dark-theme ul.mobile-sub-menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+					ul.mobile-sub-menu::-webkit-scrollbar {
+    background-color: #fff0;
+    height: 0px;
+}
+					.entry-points::-webkit-scrollbar {
+    background-color: #fff0;
+    height: 0px;
+}
+					.right-mobile-search {
+    padding-top: 2px;
+}
+				ul.mobile-sub-menu {
+    list-style: none;
+    padding-inline-start: 0px;
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+					
+					ul.mobile-sub-menu li a {
+    color: #000;
+    text-decoration: none;
+}
+				ul.mobile-sub-menu li {
+    display: inline-flex;
+    overflow-x: scroll;
+        padding-left: 10px;
+					padding-bottom: 10px;
+}
+					
+					
+					form.search-form.navigation-search.mobile-search.active {
+    width: 85%;
+    margin-left: 0%;
+						margin-top: 5px;
+}
+					.mobile-sub-menu {
+    margin-top: 3px;
+  }
+					@media (min-width:988px){
+						.mobile-sub-menu{
+							display:none;
+						}
+					}
+					form.search-form.navigation-search.active {
+    background-color: transparent;
+}
+				.navigation-search {
+    position: absolute;
+    left: -99999px;
+    pointer-events: none;
+    visibility: hidden;
+    z-index: 20;
+    width: 820px;
+   transition: opacity 100ms ease-in-out;
+    opacity: 0;
+}
+.navigation-search.active {
+        left: 0;
+    right: 0;
+    pointer-events: auto;
+    visibility: visible;
+    opacity: 1;
+    z-index: 99;
+    margin-top: 0px;
+    margin-left: 11%;
+	animation: animateleft 0.4s;
+}
+		input.search-field {
+    outline: 0;
+ border: 2px solid #f92b4ebd;
+    vertical-align: bottom;
+    line-height: 1;
+    opacity: .9;
+    width: 105%;
+    z-index: 20;
+    border-radius: 0;
+    -webkit-appearance: none;
+     height: 34px;
+    margin-top: -5px;
+			border-radius:10px;
+			padding:15px;
+}	
+					p.search-new {
+    text-align: center;
+}
+					@media (max-width:1250px) and (min-width:989px){
+						.navigation-search.active{
+							margin-left:1%;
+						}
+						.navigation-search.active{
+							width:70%;
+						}
+					}
+					.sub-menu a { text-decoration: none; }
+					.user-menu { display: inline-block; }</style><div class="col-sm-2"><div class="static-loc"> <noscript><img src="https://www.karobargain.com/wp-content/uploads/2021/11/Loctation.png" width="14" height="19" alt="Location" class="img-responsive city-loc"></noscript><img src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2014%2019%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2021/11/Loctation.png" width="14" height="19" alt="Location" class="lazyload img-responsive city-loc"> Localities <noscript><img src="https://www.karobargain.com/wp-content/uploads/2021/11/City-Arrow.png" width="10" height="6" alt="" class="img-responsive city-arrow"></noscript><img src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2010%206%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2021/11/City-Arrow.png" width="10" height="6" alt="" class="lazyload img-responsive city-arrow"></div><div class="locations" style="display:none;"><ul><li><a href="/bengaluru/">Bengaluru</a></li><li><a href="#" onclick="return false;">Coming Soon</a></li></ul></div></div></div></div></div><hr class="header-bottom"><style>.search-row { max-width: 940px; position: relative; left: 0; }
+		/*.navigation-search, .navigation-search.active { margin-left: 0; width: 100%; }*/
+		/*html body div.asl_r.vertical, html body div.asl_r .results .item { background: #dadcdd!important; border: 0; }
+		.asl_m, .asl_m .probox { background-color: rgb(218, 220, 221) !important; }
+		html body div.asl_r.vertical { padding: 10px 0 0; margin-top: 0; box-shadow: inset 0 10px 10px -7px #989898!important; }
+		#ajaxsearchlite1 .probox, div.asl_w .probox, html body #ajaxsearchlite1 .probox .proinput input, html body div.asl_w .probox .proinput input { margin: 0; height: 34px; }*/</style> <script type="rocketlazyloadscript">if ($(window).width() < 767) {
+    $(window).on("scroll", function() {
+  
+      if($(window).scrollTop() > 50) {
+       // $("#masthead").hide('slow');
+      //$("#masthead").slideUp(500);
+        } else {
+       //$("#masthead").show('slow');
+    //$("#masthead").slideDown(500);
+    }
+  
+});
+  }</script> <style>a#mylogin {
+    padding: 8px 40px;
+    border-radius: 25px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #ff3759 , #e70126);
+    border-color: #fe3657;
+    color: #fff;
+    text-decoration: none; 
+		}</style> <script>localStorage.removeItem('kb_rewards_amazon');localStorage.removeItem('kb_cashback_data');localStorage.removeItem('kb_cashback_croma');localStorage.removeItem('kb_cashback_amazon');localStorage.removeItem('kb_cashback_price');</script> <div id="content" class="single-post blogs"><div class="mobile-toc" style="display:none;"><nav class="table-of-contents mobile"><div class="toc-head">Table of Contents</div></nav></div><div class="row single"><div class="col-md-3"></div><div class="col-md-7"><h1>Best Lipstick Brands in India</h1><div class="post-details"><p>Last Updated on 15th February, 2023 &nbsp;• <a href="/about/#team" style="color:#5D697E; text-decoration:none;">Susmita Nath</a> &nbsp; • 5 Minute Read</p></div><center><ul class="share"><li><a href="https://www.facebook.com/sharer.php?u=https://www.karobargain.com/recommend/best-lipstick-brands-in-india/" target="_blank" rel="nofollow"><img src="https://www.karobargain.com/wp-content/uploads/2021/11/Facebook-1.png" class="img-responsive notlazy" width="103" height="25" alt="Facebook"></a></li><li><a href="https://twitter.com/share?text=Best Lipstick Brands in India&url=https://www.karobargain.com/recommend/best-lipstick-brands-in-india/" target="_blank" rel="nofollow"><img src="https://www.karobargain.com/wp-content/uploads/2021/11/Twitter.png" class="img-responsive notlazy" width="87" height="25" alt="Twitter"></a></li><li class="tele"><a href="https://telegram.me/share/url?url=https://www.karobargain.com/recommend/best-lipstick-brands-in-india/" target="_blank" rel="nofollow"><img src="https://www.karobargain.com/wp-content/uploads/2021/11/Telegram-1.png" class="img-responsive telegram notlazy" width="109" height="25" alt="Telegram"></a></li><li><a href="https://wa.me/?text=https://www.karobargain.com/recommend/best-lipstick-brands-in-india/" data-action="share/whatsapp/share" target="_blank" rel="nofollow"><img src="https://www.karobargain.com/wp-content/uploads/2021/11/Whatsapp.png" class="img-responsive notlazy" width="103" height="25" alt="Whatsapp"></a></li></ul></center></div></div><div class="row single"><div class="col-md-3 toc"><nav class="table-of-contents desktop-toc"><div class="toc-head">Table of Contents</div></nav></div><div class="col-md-7"><center><div aria-hidden="true"> <script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7320961367063831" crossorigin="anonymous"></script> <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-7320961367063831" data-ad-slot="9510004455"></ins> <script type="rocketlazyloadscript">(adsbygoogle = window.adsbygoogle || []).push({});</script> </div></center><div class="post-featured-image"><center><noscript><img src="https://www.karobargain.com/wp-content/uploads/2023/01/Best-liPSTICK-BRANDS-IN-INDIA-2-1024x512.jpg" fetchpriority="high" srcset="https://www.karobargain.com/wp-content/uploads/2023/01/Best-liPSTICK-BRANDS-IN-INDIA-2-1024x512.jpg 1024w, https://www.karobargain.com/wp-content/uploads/2023/01/Best-liPSTICK-BRANDS-IN-INDIA-2-300x150.jpg 300w, https://www.karobargain.com/wp-content/uploads/2023/01/Best-liPSTICK-BRANDS-IN-INDIA-2-768x384.jpg 768w, https://www.karobargain.com/wp-content/uploads/2023/01/Best-liPSTICK-BRANDS-IN-INDIA-2.jpg 1200w" alt="best lipstick brands in india" class="img-responsive" width="1200" height="600"></noscript><img src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201200%20600%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2023/01/Best-liPSTICK-BRANDS-IN-INDIA-2-1024x512.jpg" fetchpriority="high" data-srcset="https://www.karobargain.com/wp-content/uploads/2023/01/Best-liPSTICK-BRANDS-IN-INDIA-2-1024x512.jpg 1024w, https://www.karobargain.com/wp-content/uploads/2023/01/Best-liPSTICK-BRANDS-IN-INDIA-2-300x150.jpg 300w, https://www.karobargain.com/wp-content/uploads/2023/01/Best-liPSTICK-BRANDS-IN-INDIA-2-768x384.jpg 768w, https://www.karobargain.com/wp-content/uploads/2023/01/Best-liPSTICK-BRANDS-IN-INDIA-2.jpg 1200w" alt="best lipstick brands in india" class="lazyload img-responsive" width="1200" height="600"></center></div><div class="post-content" style="padding-top:15px;"><p><span style="font-weight: 400">All you need to add a colour pop to your dull day is a bright shade of lipstick. Be it a bad hair day, a stressful work day, or a celebration.  Lipstick has the magical power to create fascinating shapes and colours. One could wear lipstick to scream their signature. Makeup trends come and go throughout decades of the fashion revolution, but one thing never changed. The love women have for their lipsticks.</span></p><p><span style="font-weight: 400">There are lots of brands, that brought their best to design, formulate and create millions of shades and textures of lipstick. These lipsticks helped women around the globe to look exquisite and to be feminine even in the worst tragedies. Let us look at the brands that help the women of India add colour to their looks. </span></p><h2><span style="font-weight: 400">M.A.C </span></h2><p><noscript><img class="aligncenter wp-image-12196 size-full" src="https://www.karobargain.com/wp-content/uploads/2023/01/MAC.jpg" alt="best lipstick brands in india" width="850" height="350" /></noscript><img class="lazyload aligncenter wp-image-12196 size-full" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20850%20350%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2023/01/MAC.jpg" alt="best lipstick brands in india" width="850" height="350" /></p><p><span style="font-weight: 400">MAC Cosmetic is a Canadian-based makeup manufacturer. They deliver conscious beauty without compromising on inclusivity. Their lip products are welcomed by artists and makeup enthusiasts around the globe for their high performance and ingredient quality.  MAC shell high shine lipstick to matte finish lipstick. They also sell their products in mini sizes for making them travel-friendly and affordable. </span></p><h2><span style="font-weight: 400">Huda Beauty </span></h2><p><noscript><img class="aligncenter wp-image-12198 size-full" src="https://www.karobargain.com/wp-content/uploads/2023/01/Huda-Beauty.jpg" alt="best lipstick brands " width="850" height="350" /></noscript><img class="lazyload aligncenter wp-image-12198 size-full" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20850%20350%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2023/01/Huda-Beauty.jpg" alt="best lipstick brands " width="850" height="350" /></p><p><span style="font-weight: 400">The brain behind Huda Beauty,  Huda Kattan is an America-based make-up artist. For Kattan who grew up in the US facing racism make-up was a way to boost her confidence. With Huda Beauty's product, she intends to share this confidence with women around the globe. Huda Beauty lipsticks are highly pigmented and affordable. </span></p><p>&nbsp;</p><h2><span style="font-weight: 400"> Maybelline New York</span></h2><p><noscript><img class="aligncenter wp-image-12199 size-full" src="https://www.karobargain.com/wp-content/uploads/2023/01/Maybelline-New-York.jpg" alt="best lipstick brands " width="850" height="350" /></noscript><img class="lazyload aligncenter wp-image-12199 size-full" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20850%20350%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2023/01/Maybelline-New-York.jpg" alt="best lipstick brands " width="850" height="350" /></p><p><span style="font-weight: 400">Maybelline is a globally recognised brand for its wide range of products within a flexible price range and has a wide range of product selections. Maybelline New York lips have a comfortable formulation which makes them best for everyday use. The colour sensational Maybelline New york lipstick and  Super Stay Matte are people's favourite lipstick from the house of Maybelline. They sell lipstick that is long-staying and smudge-proof.  Maybelline enriches its lipsticks with vitamin e for lip care and protection. </span></p><h2><span style="font-weight: 400">Charlotte Tilbury</span></h2><p><noscript><img class="aligncenter wp-image-12200 size-full" src="https://www.karobargain.com/wp-content/uploads/2023/01/Charlotte-Tilbury.jpg" alt="best lipstick brands " width="850" height="350" /></noscript><img class="lazyload aligncenter wp-image-12200 size-full" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20850%20350%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2023/01/Charlotte-Tilbury.jpg" alt="best lipstick brands " width="850" height="350" /></p><p><span style="font-weight: 400">If you feel like Charlotte Tilbury is expensive, well you are not alone. Even when they are in a high price range it is one of people's favourite lipstick brands. Charlotte pillow talk collection is one of the most beloved collections. Their lipsticks are smooth, nourishing, hydrating and long-lasting. They are best suitable for a minimalistic everyday look. </span></p><h2><span style="font-weight: 400">Revlon</span></h2><p><noscript><img class="aligncenter wp-image-12201 size-full" src="https://www.karobargain.com/wp-content/uploads/2023/01/Revlon.jpg" alt="best lipstick brands " width="850" height="350" /></noscript><img class="lazyload aligncenter wp-image-12201 size-full" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20850%20350%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2023/01/Revlon.jpg" alt="best lipstick brands " width="850" height="350" /></p><p><span style="font-weight: 400">Revlon lipstick products are enriched with ingredients to dehydrate and nourish lips. The use of added ingredients like vitamin E, aloe vera and moisturizer will help you achieve a perfect smooth lip that can last for a long. They offer a wide variety of colours, textures and formulations to suit all skin colours and skin types. Revlon's lipsticks are also fragrance-free and taste-free. </span></p><p>&nbsp;</p><h2><span style="font-weight: 400"> </span><span style="font-weight: 400">NYX </span></h2><p><noscript><img class="aligncenter wp-image-12202 size-full" src="https://www.karobargain.com/wp-content/uploads/2023/01/NYX.jpg" alt="best lipstick brands " width="850" height="350" /></noscript><img class="lazyload aligncenter wp-image-12202 size-full" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20850%20350%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2023/01/NYX.jpg" alt="best lipstick brands " width="850" height="350" /></p><p><span style="font-weight: 400">For soft and creamy finished lipstick, NYX Professional Makeup is the best choice. NYX offers every product a beauty enthusiast would want. Their lip products are designed to be comfortable, lightweight and long-lasting. Their products are smudge-proof and offer diverse colour palettes. </span></p><h2><span style="font-weight: 400">Sugar Cosmetic</span></h2><p><noscript><img class="aligncenter wp-image-12203 size-full" src="https://www.karobargain.com/wp-content/uploads/2023/01/Sugar-Cosmetic.jpg" alt="best lipstick brands " width="850" height="350" /></noscript><img class="lazyload aligncenter wp-image-12203 size-full" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20850%20350%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2023/01/Sugar-Cosmetic.jpg" alt="best lipstick brands " width="850" height="350" /></p><p><span style="font-weight: 400">The lip products of Sugar cosmetics are paraben-free and have no other harmful chemicals. Sugar Cosmetic lipsticks are good for everyday use. The formulation of these products makes them lightweight, long-lasting and gives full coverage.  The lipsticks are intensely pigmented and enriched with vitamin E. They can last up to 10 hours with no smudging, cracking, feathering or fading.</span></p><h2><span style="font-weight: 400"> Faces Canada</span></h2><p><noscript><img class="aligncenter wp-image-12204 size-full" src="https://www.karobargain.com/wp-content/uploads/2023/01/Faces-Canada.jpg" alt="best lipstick brands " width="850" height="350" /></noscript><img class="lazyload aligncenter wp-image-12204 size-full" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20850%20350%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2023/01/Faces-Canada.jpg" alt="best lipstick brands " width="850" height="350" /></p><p><span style="font-weight: 400">Faces Canada has a high-quality affordable range of lipstick collections. The intense pigmentation can intense colour to the lips in just one stroke. Their products are enriched with jojoba oil and Vitamin E for lip protection and care. </span></p><h2><span style="font-weight: 400">Lakmé </span></h2><p><noscript><img class="aligncenter wp-image-12205 size-full" src="https://www.karobargain.com/wp-content/uploads/2023/01/Lakme-1.jpg" alt="best lipstick brands " width="850" height="350" /></noscript><img class="lazyload aligncenter wp-image-12205 size-full" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20850%20350%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2023/01/Lakme-1.jpg" alt="best lipstick brands " width="850" height="350" /></p><p><span style="font-weight: 400">Lakmé is India's own cosmetics brand that delivers affordable and quality cosmetic products. Their lip products are infused with Vitamin E and Argan oil so that it leaves your lips feeling soft, supple and hydrated. The products are formulated to be non-sticky, comfortable and lightweight. The lipsticks are highly intense and they give an intense colour payoff.  </span></p><h2><span style="font-weight: 400">Colorbar </span></h2><p>&nbsp;</p><p><noscript><img class="aligncenter wp-image-12206 size-full" src="https://www.karobargain.com/wp-content/uploads/2023/01/Colorbar.jpg" alt="best lipstick brands " width="850" height="350" /></noscript><img class="lazyload aligncenter wp-image-12206 size-full" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20850%20350%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2023/01/Colorbar.jpg" alt="best lipstick brands " width="850" height="350" /></p><p><span style="font-weight: 400">Colorbar offers a wide range of lipstick shades and textures which are 100% cruelty-free. They are enriched with shea butter, vitamin E and jojoba oils to moisturise and nourish the lips. The brand believes n the ethos of gender neutrality and with the products of Colorbar, one can express their uniqueness. Colorbar lipstick’s innovative formulation helps your lips achieve intense moisture along with high colour payoff, they won’t weigh down on your lips they have a very lightweight texture, transfer-proof and long-lasting. </span></p><h2><span style="font-weight: 400">Wet n Wild</span></h2><p><noscript><img class="aligncenter wp-image-12207 size-full" src="https://www.karobargain.com/wp-content/uploads/2023/01/Wet-n-Wild.jpg" alt="best lipstick brands " width="850" height="350" /></noscript><img class="lazyload aligncenter wp-image-12207 size-full" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20850%20350%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2023/01/Wet-n-Wild.jpg" alt="best lipstick brands " width="850" height="350" /></p><p><span style="font-weight: 400">Wet n Wild is an American-based cosmetic company that sells cruelty-free makeup products, their goal is to sell high-performance, quality makeup products at affordable prices. Wet n Wild has a wide collection of lipsticks ranging from subtle nudes to metallic lip shades that are apt for everyday subtle looks to be extra for your Halloween look. </span></p><h2><span style="font-weight: 400">Elle 18</span></h2><p><noscript><img class="aligncenter wp-image-12208 size-full" src="https://www.karobargain.com/wp-content/uploads/2023/01/Elle-18.jpg" alt="best lipstick brands " width="850" height="350" /></noscript><img class="lazyload aligncenter wp-image-12208 size-full" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20850%20350%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2023/01/Elle-18.jpg" alt="best lipstick brands " width="850" height="350" /></p><p><span style="font-weight: 400">Elle 18 is an Indian cosmetic brand that became the favourite of Indian youth of all time. They deliver products with bright colours and quality to add a little punk to your life. Elle 18 offer more than 30 shades of lipstick colours in matte, sheer and satin texture. Their packaging is small and travel-friendly. The new formulation of Elle 18 promises intense colour pop and their lipstick range is very affordable too.</span></p><h2><span style="font-weight: 400">Mamaearth </span></h2><p><noscript><img class="aligncenter wp-image-12209 size-full" src="https://www.karobargain.com/wp-content/uploads/2023/01/mamaearth.jpg" alt="best lipstick brands " width="850" height="350" /></noscript><img class="lazyload aligncenter wp-image-12209 size-full" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20850%20350%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2023/01/mamaearth.jpg" alt="best lipstick brands " width="850" height="350" /></p><p><span style="font-weight: 400">Mamaearth has become a sensational brand among Indians for its high-quality and affordable products. The Mamaearth cosmetic products including lipsticks are toxin free, they are best suitable for people with sensitive skin. The lipsticks are formulated with vitamin E and avocado oil for hydrated supple soft lips. They are made from 100% organic ingredients and combined with ayurveda and science to make it an international standard product.</span></p><h2><span style="font-weight: 400">My Glamm</span></h2><p><noscript><img class="aligncenter wp-image-12210 size-full" src="https://www.karobargain.com/wp-content/uploads/2023/01/My-Glamm.jpg" alt="best lipstick brands " width="850" height="350" /></noscript><img class="lazyload aligncenter wp-image-12210 size-full" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20850%20350%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2023/01/My-Glamm.jpg" alt="best lipstick brands " width="850" height="350" /></p><p><span style="font-weight: 400">MyGlam has formulated some highly-pigmented lipstick collections that are enriched with vitamin E and argan oil. Their lipstick collection on the application gives a burst of colour that can last for up to 8 hours. The presence of Vitamin E and argan oil help keep lip well-hydrated and moisturised. The miracle formula of the lipsticks makes them long-lasting, waterproof and smudge proof making them a perfect choice for everyday use. It has a comfortable texture and has stolen the heart of many.</span></p><h2><span style="font-weight: 400">SwissBeauty</span></h2><h2><span style="font-weight: 400"><noscript><img class="aligncenter wp-image-12211 size-full" src="https://www.karobargain.com/wp-content/uploads/2023/01/Swiss-Beauty.jpg" alt="best lipstick brands " width="850" height="350" /></noscript><img class="lazyload aligncenter wp-image-12211 size-full" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20850%20350%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2023/01/Swiss-Beauty.jpg" alt="best lipstick brands " width="850" height="350" /> </span></h2><p><span style="font-weight: 400">Swiss beauty is a young cosmetic brand that soon grew to be the favourite of many. Their lip products are affordable and of high quality. The brand started in 2008 delivers lipsticks with rich texture and pigmentation. The colour range offered by SwissBeauty is inspiring, classy and unique. The high-quality lipsticks of SwissBeauty lipsticks are imported from Italy, Japan, Germany and Taiwan. The lipsticks offered by SwissBeauty have beeswax in them to keep your lips hydrated. The SwissBeauty lipsticks also promise to last for 12 hours without fading. </span></p><h2><span style="font-weight: 400">Renee Fab </span></h2><p><noscript><img class="aligncenter wp-image-12212 size-full" src="https://www.karobargain.com/wp-content/uploads/2023/01/Renee-Fab.jpg" alt="best lipstick brands " width="850" height="350" /></noscript><img class="lazyload aligncenter wp-image-12212 size-full" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20850%20350%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2023/01/Renee-Fab.jpg" alt="best lipstick brands " width="850" height="350" /></p><p><span style="font-weight: 400">Renee Fab offers innovative and colourful lipsticks for perfect pouty lips. The product contains vitamin E for lip nourishment. The brand delivers long-lasting smudge and transfer-proof lipstick. The Renee matte lipsticks are very hydrating and don’t make your lips appear flaky. Their products are vegan and cruelty-free. </span></p><p>&nbsp;</p><div class="acc_faq" itemscope="" itemtype="https://schema.org/FAQPage"><div class="item" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question"><h5 itemprop="name">Which lipstick brand is best for daily use?</h5><div class="answer" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text"> Best Overall: SUGAR Cosmetics - Matte As Hell - Crayon Lipstick.
+Best Budget: RENEE Madness PH Stick.
+Best Moisturizing: LAKMÉ Liquid Lipstick.
+Best Longevity: L'Oreal Paris Color Riche Moist Matte Lipstick.</p></div></div><div class="item" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question"><h5 itemprop="name">What type of lipstick looks most natural?</h5><div class="answer" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text"> Nude lipstick shades are used to create a more natural appearance</p></div></div><div class="item" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question"><h5 itemprop="name">Which lipstick is best for healthy lips?</h5><div class="answer" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text"> Instead, go for a lipstick that is a blend of shea butter, jojoba oil, argan oil and castor oil so that it can hydrate your lips while being non-toxic in nature. Also, look out for products that are pigmented using vegan formulations</p></div></div></div></div><div class="author-bio"><div class="row" style="align-items:center;"><div class="col-sm-2"> <noscript><img alt='Susmita' src='https://www.karobargain.com/wp-content/uploads/2022/12/Susmita-124x124.jpg' srcset='https://www.karobargain.com/wp-content/uploads/2022/12/Susmita.jpg 2x' class='avatar avatar-124 photo' height='124' width='124' /></noscript><img alt='Susmita' src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20124%20124%22%3E%3C/svg%3E' data-src='https://www.karobargain.com/wp-content/uploads/2022/12/Susmita-124x124.jpg' data-srcset='https://www.karobargain.com/wp-content/uploads/2022/12/Susmita.jpg 2x' class='lazyload avatar avatar-124 photo' height='124' width='124' /></div><div class="col-sm-10"><p class="author-title">Author</p><p class="author-name">Susmita Nath</p><p class="author-desc"></p></div></div></div><style>.wpb-posts-nav h4 {
+			 font-size: 1.2rem;
+			 font-weight: bold!important;				 
+		 }
+		 .wpb-posts-nav a {
+			 text-decoration: none;
+		 }
+		.wpb-posts-nav {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-gap: 50px; 
+			max-width: 1200px;
+			margin: 30px auto;
+		 }
+
+		 .wpb-posts-nav a {
+			 display: grid;
+			 grid-gap: 20px; 
+		 }
+
+		 .wpb-posts-nav h4,
+		 .wpb-posts-nav strong {
+			 margin: 0;
+		 }
+
+		 .wpb-posts-nav a svg {
+			 display: inline-block;
+			 margin: 0;
+			 vertical-align: middle;
+		 }
+
+		 .wpb-posts-nav > div:nth-child(1) a {
+			 grid-template-columns:   1fr;
+			 text-align: left;
+		 }
+
+		 .wpb-posts-nav > div:nth-child(2) a {
+			 grid-template-columns: 1fr  ;
+			 text-align: right;
+		 }</style><div class="wpb-posts-nav"><div> <a href="https://www.karobargain.com/mumbai/thrift-stores-in-mumbai/"><div> <strong> <svg viewBox="0 0 24 24" width="24" height="24"><path d="M13.775,18.707,8.482,13.414a2,2,0,0,1,0-2.828l5.293-5.293,1.414,1.414L9.9,12l5.293,5.293Z" /></svg> Previous article </strong><h4>Legitimate Thrift Stores In Mumbai</h4></div> </a></div><div> <a href="https://www.karobargain.com/recommend/best-biscuits-in-india/"><div> <strong> Next article <svg viewBox="0 0 24 24" width="24" height="24"><path d="M10.811,18.707,9.4,17.293,14.689,12,9.4,6.707l1.415-1.414L16.1,10.586a2,2,0,0,1,0,2.828Z" /></svg> </strong><h4>Best Biscuits in India to Try Out</h4></div> </a></div></div> <script>function updateTimer() {
+    future = Date.parse("");
+    now = new Date();
+    diff = future - now;
+
+    days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    hours = Math.floor(diff / (1000 * 60 * 60));
+    mins = Math.floor(diff / (1000 * 60));
+    secs = Math.floor(diff / 1000);
+	
+    d = days;
+    h = hours - days * 24;
+    m = mins - hours * 60;
+    s = secs - mins * 60;
+		if(document.getElementById("timer")){
+    	document.getElementById("timer").innerHTML = '<span>' + d + '<span>Days:</span></span>' + '<span>' + h + '<span>Hours:</span></span>' + '<span>' + m + '<span>Minutes:</span></span>' + '<span>' + s + '</span>Seconds';
+	}
+	}
+setInterval('updateTimer()', 1000);</script> <h2 class="related-articles">Related Articles</h2> <br><div class="popular"><div class="row"> <input id="tot-post" value="0" type="hidden"><div class="col-sm-6"><div class="blog-details"><div class="blog-left"> <noscript><img src="https://www.karobargain.com/wp-content/uploads/2023/04/oledvsamoled2-142x76.jpg" width="142" height="76" alt="AMOLED Vs OLED : Which Is the Most Chosen?" class="img-responsive"></noscript><img src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20142%2076%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2023/04/oledvsamoled2-142x76.jpg" width="142" height="76" alt="AMOLED Vs OLED : Which Is the Most Chosen?" class="lazyload img-responsive"></div><div class="blog-right"><p class="blog-name"><a href="https://www.karobargain.com/blog/amoled-vs-oled-comparison/">AMOLED Vs OLED : Which Is the Mo...</a></p><p class="blog-auth">Harish Rajulu</p><p class="blog-date">25 April, 2023</p></div></div></div><div class="col-sm-6"><div class="blog-details"><div class="blog-left"> <noscript><img src="https://www.karobargain.com/wp-content/uploads/2023/04/Wow-Chicken-Or-KFC-142x76.jpg" width="142" height="76" alt="Wow! Chicken Or KFC? Meet The Newest Competitor Of American Kentucky Fried Chicken" class="img-responsive"></noscript><img src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20142%2076%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2023/04/Wow-Chicken-Or-KFC-142x76.jpg" width="142" height="76" alt="Wow! Chicken Or KFC? Meet The Newest Competitor Of American Kentucky Fried Chicken" class="lazyload img-responsive"></div><div class="blog-right"><p class="blog-name"><a href="https://www.karobargain.com/blog/wow-chicken-or-kfc/">Wow! Chicken Or KFC? Meet The Ne...</a></p><p class="blog-auth">Utkarsh Gupta</p><p class="blog-date">18 April, 2023</p></div></div></div><div class="col-sm-6"><div class="blog-details"><div class="blog-left"> <noscript><img src="https://www.karobargain.com/wp-content/uploads/2023/03/shark-tank-2-142x76.png" width="142" height="76" alt="Ubreathe- The Bio-Tech Company That Took Shark Tank&#8217;s Breath Away" class="img-responsive"></noscript><img src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20142%2076%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2023/03/shark-tank-2-142x76.png" width="142" height="76" alt="Ubreathe- The Bio-Tech Company That Took Shark Tank&#8217;s Breath Away" class="lazyload img-responsive"></div><div class="blog-right"><p class="blog-name"><a href="https://www.karobargain.com/blog/ubreathe-the-bio-tech-company-that-took-shark-tanks-breath-away/">Ubreathe- The Bio-Tech Company T...</a></p><p class="blog-auth">Rashi Agrawal</p><p class="blog-date">1 April, 2023</p></div></div></div><div class="col-sm-6"><div class="blog-details"><div class="blog-left"> <noscript><img src="https://www.karobargain.com/wp-content/uploads/2023/02/Rise-Of-Nike-Mystery-Behind-The-Marketing-Mega-Mind-142x76.jpg" width="142" height="76" alt="Rise Of Nike: Mystery Behind The Marketing Mega-Mind" class="img-responsive"></noscript><img src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20142%2076%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2023/02/Rise-Of-Nike-Mystery-Behind-The-Marketing-Mega-Mind-142x76.jpg" width="142" height="76" alt="Rise Of Nike: Mystery Behind The Marketing Mega-Mind" class="lazyload img-responsive"></div><div class="blog-right"><p class="blog-name"><a href="https://www.karobargain.com/blog/rise-of-nike/">Rise Of Nike: Mystery Behind The...</a></p><p class="blog-auth">Rit Patel</p><p class="blog-date">22 February, 2023</p></div></div></div></div></div></div></div></div> <script type="rocketlazyloadscript">$(document).ready(function() {
+	$("#salehigh").click(function() {
+        $("#boxblock").toggle();       
+     });
+});</script> <script type="rocketlazyloadscript">$(document).ready(function(){
+  $(".toc-head").click(function(){
+    $(".table-of-contents.mobile ol").slideToggle();
+    //$(".table-of-contents.mobile ol").css({"display":"block"});
+  });
+      
+  $(document).on('click', '.mobile li', function () {
+    $(this).parents('ol').fadeOut();
+}); 
+});</script> <script type="rocketlazyloadscript">$('body').bind('touchmove', function(e) { 
+   $(".mobile-toc").css({"display":"block", "position":"sticky", "top":"0", "margin": "0", "width":"100%",});
+      $("#masthead").css({"display":"none"});
+      $(".site-content").css({"display":"none"});
+      });</script> <script type="rocketlazyloadscript">jQuery("#sale-list-scroller").click(function(e) {
+      e.preventDefault();
+      jQuery('html, body').animate({
+        scrollTop: jQuery(".sale-table").offset().top-200
+      }, 500);
+    });</script> <script type="rocketlazyloadscript">jQuery("#list-scroller").click(function(e) {
+      e.preventDefault();
+      jQuery('html, body').animate({
+        scrollTop: jQuery(".table").offset().top-115
+      }, 500);
+    });</script> <script type="rocketlazyloadscript">$(document).ready(function(){
+   if($('.acc_faq')[0]){
+		var acc = $('.acc_faq')[0].getElementsByTagName('h5');
+		var i;
+		for (i = 0; i < acc.length; i++) {
+		  acc[i].addEventListener("click", function() {
+		  this.classList.toggle("active");
+		  var panel = this.nextElementSibling;
+		  if (panel.style.display === "block") {
+			panel.style.display = "none";
+		  } else {
+			panel.style.display = "block";
+		  }
+		  });
+		}
+	}
+  });</script> <script type="rocketlazyloadscript">/*
+    Demo for this article:
+    https://blustemy.io/creating-a-table-of-contents-in-javascript/
+*/
+
+class TableOfContents {
+    /*
+        The parameters from and to must be Element objects in the DOM.
+    */
+    constructor({ from, to }) {
+        this.fromElement = from;
+        this.toElement = to;
+        // Get all the ordered headings.
+       // this.headingElements = this.fromElement.querySelectorAll("h1, h2, h3, h4, h5, h6");
+    this.headingElements = this.fromElement.querySelectorAll("h1, h2, h3");
+        this.tocElement = document.createElement("div");
+    }
+
+    /*
+        Get the most important heading level.
+        For example if the article has only <h2>, <h3> and <h4> tags
+        this method will return 2.
+    */
+    getMostImportantHeadingLevel() {
+        let mostImportantHeadingLevel = 6; // <h6> heading level
+        for (let i = 0; i < this.headingElements.length; i++) {
+            let headingLevel = TableOfContents.getHeadingLevel(this.headingElements[i]);
+            mostImportantHeadingLevel = (headingLevel < mostImportantHeadingLevel) ?
+                headingLevel : mostImportantHeadingLevel;
+        }
+        return mostImportantHeadingLevel;
+    }
+
+    /*
+        Generate a unique id string for the heading from its text content.
+    */
+    static generateId(headingElement) {
+        return headingElement.textContent.replace(/\s+/g, "_");
+    }
+
+    /*
+        Convert <h1> to 1 … <h6> to 6.
+    */
+    static getHeadingLevel(headingElement) {
+        switch (headingElement.tagName.toLowerCase()) {
+            case "h1": return 1;
+            case "h2": return 2;
+            case "h3": return 3;
+            //case "h4": return 4;
+            //case "h5": return 5;
+            //case "h6": return 6;
+            default: return 1;
+        }
+    }
+
+    generateToc() {
+        let currentLevel = this.getMostImportantHeadingLevel() - 1,
+            currentElement = this.tocElement;
+
+        for (let i = 0; i < this.headingElements.length; i++) {
+            let headingElement = this.headingElements[i],
+                headingLevel = TableOfContents.getHeadingLevel(headingElement),
+                headingLevelDifference = headingLevel - currentLevel,
+                linkElement = document.createElement("a");
+
+            if (!headingElement.id) {
+                headingElement.id = TableOfContents.generateId(headingElement);
+            }
+            linkElement.href = `#${headingElement.id}`;
+            linkElement.textContent = (headingElement.textContent).replace(/^\s*\d+\.\s*/, '');
+
+            if (headingLevelDifference > 0) {
+                // Go down the DOM by adding list elements.
+                for (let j = 0; j < headingLevelDifference; j++) {
+                    let listElement = document.createElement("ol"),
+                        listItemElement = document.createElement("li");
+                    listElement.appendChild(listItemElement);
+                    currentElement.appendChild(listElement);
+                    currentElement = listItemElement;
+                }
+                currentElement.appendChild(linkElement);
+            } else {
+                // Go up the DOM.
+                for (let j = 0; j < -headingLevelDifference; j++) {
+                    currentElement = currentElement.parentNode.parentNode;
+                }
+                let listItemElement = document.createElement("li");
+                listItemElement.appendChild(linkElement);
+                currentElement.parentNode.appendChild(listItemElement);
+                currentElement = listItemElement;
+            }
+
+            currentLevel = headingLevel;
+        }
+
+        this.toElement.appendChild(this.tocElement.firstChild);
+    }
+}
+
+document.addEventListener("DOMContentLoaded", () =>
+    new TableOfContents({
+        from: document.querySelector(".post-content"),
+        to: document.querySelector(".table-of-contents")
+    }).generateToc()
+);
+
+   document.addEventListener("DOMContentLoaded", () =>
+    new TableOfContents({
+        from: document.querySelector(".post-content"),
+        to: document.querySelector(".desktop-toc")
+    }).generateToc()
+);</script> <script type="rocketlazyloadscript">$(window).scroll(function() {
+		var windscroll = $(window).scrollTop();
+		if (windscroll >= 100) {
+			$('section').each(function(i) {
+        // The number at the end of the next line is how pany pixels you from the top you want it to activate.
+				if ($(this).position().top <= windscroll - 0) {
+					$('desktop-toc li.active').removeClass('active');
+					$('desktop-toc li').eq(i).addClass('active');
+				}
+			});
+
+		} else {
+
+			$('desktop-toc li.active').removeClass('active');
+			$('desktop-toc li:first').addClass('active');
+		}
+
+		}).scroll();</script> <style>.author-bio {
+    border: 1px solid #bebcbc;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 2px 0px #bebcbc;
+    margin-top: 25px;
+}
+  p.author-title {
+       font-weight: 600 !important;
+    font-size: 18px !important;
+    margin-bottom: 5px;
+}
+  p.author-name {
+    font-weight: 800 !important;
+    color: #000;
+    font-size: 20px !important;
+    margin-bottom: 5px;
+}
+  
+  .post-content {
+    color: #5D697E;
+}
+  .dark-theme .post-content {
+    color: #fff;
+}
+  nav.table-of-contents.mobile { 
+margin:0 auto !important;
+  }
+  p.blog-name a {
+      color: #1a212d;
+    text-decoration: none;
+  }
+  .blog-left img {
+    width: auto;
+    max-height: 76px;
+    border-radius: 5px;
+}
+	.blog-left { width: 37%; }
+	.blog-right {
+    height: auto;
+	width: 60%;
+	border-bottom: 0;
+}
+	.blog-auth { display: none; }
+	.Blog-page .col-sm-4 { border-bottom: 1px solid #e9ecef; padding-bottom: 10px; }
+	.popular .col-sm-4 { margin-bottom: 15px; }
+	.Blog-page h2 { margin-bottom: 15px; }
+	
+  .post-content table td {
+    border: 1px solid;
+}
+  .acc_faq h5 {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 19px;
+    transition: 0.4s;
+  }
+
+  .acc_faq .answer{
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+  }
+  .acc_faq h5:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  .acc_faq h5.active:after {
+    content: "\2212";
+  }
+  table.sale-table {
+    margin: 5px;
+	table-layout: fixed;
+    width: 100%;
+	margin-bottom: 30px;
+}
+	table.sale-table th { border: 1px solid #ddd }
+  table.sale-table thead tr {
+    background-color: #fcf0ef !important;
+}
+  table.sale-table tr:nth-child(odd) {
+    background-color: #fafafa;
+}
+  table.sale-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  table.sale-table tr:nth-child(even) {
+    background-color: #fcf0ef;
+}
+  a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height: auto;
+}
+  img.size-full {
+    width: 100%;
+}
+  img.size-large {
+    width: 100%;
+}
+  
+  .toc-head {
+/*     background-color: #3f3f3f;
+    padding: 0.9rem 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+    border-radius: 0.3rem 0.3rem 0 0;
+   font-size:18px;
+	  font-weight:700;
+    color: #000;
+}
+  nav.table-of-contents ol {
+    background-color: #fff;
+    padding-inline-start: 20px;
+/*     list-style:none; */
+}
+  nav.table-of-contents ol li {
+/*   border-bottom: 0.1rem solid #ededed; */
+    padding:10px 10px 10px 5px;   
+    transition: all .3s ease-in-out;
+       font-size: 14px;
+    font-weight: 500;
+  }
+  nav.table-of-contents ol li a {
+  color:#5D697E;
+    text-decoration:none;
+}
+	 nav.table-of-contents ol li:hover {
+  color:#000;
+}
+	 nav.table-of-contents ol li a:hover {
+  color:#000;
+}
+  nav.table-of-contents {
+    position: sticky;
+    top: 6.24rem;
+/*     margin: 2.4rem 0; */
+	  margin:0;
+    z-index: 9;
+}
+  
+  .col-md-9 div#rtoc-mokuji-wrapper {
+    display: none;
+}
+  div#rtoc-mokuji-wrapper {
+        position: sticky;
+    top: 6.24rem;
+    margin: 2.4rem 0;
+    z-index: 999;
+    
+}
+  .dark-theme div#rtoc-mokuji-wrapper {
+    background: #27272a;
+                }
+  
+  button.rtoc_open_close.rtoc_close {
+    display: none;
+}
+  div#rtoc-mokuji-title {
+    font-weight: 600;
+}
+  li.rtoc-item a {
+    text-decoration: none;
+}
+  @keyframes shadow-pulse { 0% { box-shadow: 0 0 0 0px rgba(0, 112, 244, 0.8); } 100% { box-shadow: 0 0 15px 25px rgba(0, 112, 244, 0); } }
+@keyframes shadow-pulse-green { 0% { box-shadow: 0 0 0 0px rgba(50, 205, 50, 0.8); } 100% { box-shadow: 0 0 10px 25px rgba(50, 205, 50, 0); } }
+.pulse a { margin:0 auto; padding: 20px 80px; font-size: 22px; font-weight: 900; color: #fff; text-align: center; background: #06aae2; border-radius: 50px; animation: shadow-pulse 1.4s infinite; text-transform: uppercase; display: inline-block; text-decoration: none; }
+.pulse.green  a { background : #32CD32; padding: 10px 40px; font-size: 16px; animation: shadow-pulse-green 1.5s infinite; }
+  .popular .col-sm-6{
+    margin-bottom:20px;
+  }
+	.sale_button {
+    margin-top: 15px;
+}
+ul.share {
+    text-align: center;
+    list-style: none;
+  padding-inline-start: unset;
+}
+  ul.share li{
+   padding:0 5px;
+    display: inline-block;
+    list-style:none;
+}
+  .post-details {
+    text-align: center;
+}
+  .post-content .row {
+    margin-left: 0 !important;
+     margin-right: 0 !important;
+}
+  .post-content .col-sm-3 { 
+    padding:0px 10px;
+  }
+  .post-content .col-sm-3 img { 
+    width:100%;
+  }
+  .post-content .col-sm-9 { 
+    padding:0px 10px;
+  }
+  
+  .post-content p a {
+    text-decoration: none;
+	  border-bottom: 3px solid #b7d0fa;
+    /*color: #5D697E;*/
+	color: #33373e;
+    line-height: 1.2;
+    display: inline-block;
+}
+	.post-content p a:hover{
+		border-bottom: 3px solid #2f7bff;
+	}
+	.sales-highlights a {
+    border-bottom: none;
+		    text-decoration:none;
+}
+	.sales-highlights a:hover {
+    border-bottom: none;
+}
+	.fashion-days .pulse a {
+		color:#fff;
+		border-bottom:none;
+	}
+	.fashion-days .pulse a:hover {
+			border-bottom:none;
+	}
+  ul.feature-list li {
+    font-size: 13px;
+}
+	.dark-theme .toc-head{
+		color:#fff;
+	}
+	.dark-theme nav.table-of-contents ol li:hover{
+		color:#fff;
+	}
+	.dark-theme .post-content table td {
+       color: #000;
+}
+	.dark-theme .sales-highlights a {
+    text-decoration:none;
+}
+  @media (min-width:990px){
+    .single-post.blogs {
+/*     width: 900px !important; */
+}
+  }
+  
+  .kba-ratings{margin:0 auto 10px;text-align:center}.kba-rating{position:relative;display:inline-block;background-image:url(https://www.karobargain.com/wp-content/themes/twentytwentyone/images/v1.svg);background-repeat:repeat-x;background-position:left center;vertical-align:middle;height:16px;width:80px;background-size:16px 16px}.kba-rating>span{position:absolute;top:0;bottom:0;left:0;display:block;background-image:url(https://www.karobargain.com/wp-content/themes/twentytwentyone/images/v1-active.svg);background-repeat:repeat-x;background-position:left center;vertical-align:middle}.kba-rating>span{height:16px;width:80px;background-size:16px 16px}.kba-rcount{margin-top:5px;font-size:12px;color:#666;text-align:center}.kb-apro{padding-top:35px;zoom:1;display:block;max-width:100%;padding:20px;background:#fff;border:1px solid #ececec;font-size:15px;line-height:1.6;white-space:normal;position:relative;margin:0 0 30px;width:100%}@media (min-width:768px){.kb-aimg{margin-bottom:30px}}.kb-aimg{float:left;width:160px}.kb-aimg img{display:block;height:auto;margin:0 auto 15px;max-height:200px;max-width:100%;width:auto;border:none;box-shadow:none}.kba-pcontent{margin-left:160px;padding-left:20px}
+  a.kbap-title{display:block;margin:0 0 15px;font-size:18px;font-weight:700;word-wrap:break-word; color: #f55145;}
+  .kbap-description{margin:0}.kba-footer{padding-left:20px;text-align:center}.kba-pricing{display:block;margin-bottom:5px}span.kbap-productprice-real{font-size:14px;text-decoration:line-through;color:#666}.price{display:inline-block;line-height:34px;vertical-align:middle}.kba-pricing span+span{margin-left:15px}.kbap-savedamt{border-radius:2px;background:#f55145;background:#f55145;padding:4px 6px;color:#fff;font-size:12px;line-height:12px;margin-top:11px;margin-bottom:11px}span.kbap-productprice-saved{font-size:20px;font-weight:700}a.kbap-buy-button:visited,a.kbap-buy-button:visited{color:#fff !important}a.kbap-buy-button{position:relative;display:inline-block;background-color:#5fad41;border-radius:4px;color:#fff;font-size:20px;line-height:25px;text-transform:uppercase;padding:12px 20px;text-align:center;font-weight:700;border:none;outline:0;letter-spacing:0;height:auto;cursor:pointer;padding-left:32px;width:50%;text-decoration:none !important}span.kb-disclosure{margin-top:8px !important;display:block;font-size:12px}a.kbap-buy-button:hover{color:#fff !important}.kba-nratings .kba-rating{background:0 0 !important;display:initial !important}.pros{width:50%;float:left;padding:10px 0}.cons{width:50%;float:left;padding:10px 0}.pros ul{padding:0}.cons ul{padding:0}h3{clear:both}h2{clear:both}.pros h4{color:#5fad41}.cons h4{color:#f55145}.pros h5{color:#5fad41}.cons h5{color:#f55145}.cons li{background:url(https://www.karobargain.com/wp-content/themes/twentytwentyone/images/icon-minus.svg) no-repeat;background-position:2px 8px;list-style:none;padding-left:19px}.pros li{background:url(https://www.karobargain.com/wp-content/themes/twentytwentyone/images/icon-plus.svg) no-repeat;background-position:2px 8px;list-style:none;padding-left:19px}@media (max-width:768px){.kb-aimg{float:none;width:100%}.cons{width:100%;float:none;padding-top:0}.pros{width:100%;float:none;padding-top:0}.pros ul{padding:0}.cons ul{padding:0}}@media (max-width:768px){.kba-pcontent{margin:0;padding:0}}@media (max-width:768px){.kba-footer{margin:0;padding:0}a.kbap-buy-button{width:80%}}@media (max-width:480px){.kba-pricing{margin-bottom:0}}
+  
+table.pro-table{border-collapse:collapse;margin:0;padding:0;width:100%;table-layout:fixed}table.pro-table tr{background-color:#f8f8f8;border:1px solid #ddd;padding:.35em}table.pro-table th,table.pro-table td{border:1px solid #ddd;padding:8px;text-align:center; font-size:14px;}table.pro-table th{text-transform:uppercase;background-color:#000;color:#fff;padding-top:12px;padding-bottom:12px}table.pro-table tr:nth-child(even){background-color:#f2f2f2}table.pro-table td a.btn{color:#fff !important;font-weight:500;text-decoration:none !important;text-transform:uppercase;font-size:13px;background:#000;padding:8px 22px;border-radius:4px;display:block;text-align:center;margin:0 auto}td{width:20%}td[data-label=Item] a{color:#000}@media screen and (max-width:767px){td{width:100%}table.pro-table{border:0}table.pro-table caption{font-size:1.3em}table.pro-table thead{border:none;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}table.pro-table tr{border-bottom:3px solid #ddd;display:block;margin-bottom:.625em}table.pro-table td{border-bottom:1px solid #ddd;display:block;font-size:.8em;text-align:right}table.pro-table td:before{font-size:12px;content:attr(data-label);float:left;font-weight:700;text-transform:uppercase}table.pro-table td:last-child{border-bottom:0}table.pro-table td a.btn{color:#fff !important;font-weight:500;text-decoration:none !important;text-transform:uppercase;font-size:13px;background:#000;padding:8px 7px 7px 5px;border-radius:4px;display:block;text-align:center;position:relative;top:3px}}a.btn_rev{background:#22ad01;color:#fff !important;font-weight:500;text-decoration:none !important;text-transform:uppercase;font-size:13px;padding:8px 22px;border-radius:4px;display:block;text-align:center;margin:5px 0 auto 0}
+	.pro-table.two-col .btn_rev { margin: 5px auto 0; max-width: 180px; }
+	
+	img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height: auto;
+}	
+	nav.table-of-contents.desktop-toc ol ol {
+    max-height: 100%;
+		overflow-y: hidden;	
+		padding-inline-start:15px !important;
+}
+	nav.table-of-contents.desktop-toc ol > li > ol > li:only-child::marker{
+		 color:#fff;
+    	z-index:-5;
+	}
+	nav.table-of-contents.desktop-toc ol > li > a + ol{
+		padding-inline-start:25px !important;
+	}
+	nav.table-of-contents.desktop-toc ol {
+		
+    max-height: 32vmax;
+    overflow-y: scroll;
+}
+	nav.table-of-contents.desktop-toc ::-webkit-scrollbar {
+    width: 5px;
+   }
+	nav.table-of-contents.desktop-toc -webkit-scrollbar-track {
+/*     box-shadow: inset 0 0 5px grey;
+  border-radius: 10px; */
+		
+   }
+	nav.table-of-contents.desktop-toc ::-webkit-scrollbar-thumb {
+  background: #3f3f3f; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+nav.table-of-contents.desktop-toc ::-webkit-scrollbar-thumb:hover {
+  background: #fc2f52; 
+}
+	
+  .author-bio img{
+    border-radius:85px;
+  }
+  @media (max-width:500px){
+    li.tele {
+    display: none !important;
+}
+    .blog-left img {
+    width: 100%;
+    height: 104px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+    .col-md-3 div#rtoc-mokuji-wrapper {
+    display: none;
+}
+/*    .mobile-toc{
+      display:block !important;
+    } */
+    .rtoc-mokuji {
+    display: none;
+}
+    div#rtoc-mokuji-wrapper {
+    margin: 0 auto;
+    }
+  }
+  @media (max-width:767px) and (min-width:501px){
+    .blog-left img {
+    width: 100%;
+    height: 104px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+    .col-md-3 div#rtoc-mokuji-wrapper {
+    display: none;
+}
+/*    .mobile-toc{
+      display:block !important;
+    } */
+    .rtoc-mokuji {
+    display: none;
+}
+    div#rtoc-mokuji-wrapper {
+    margin: 0 auto;
+    }
+    
+  }
+  @media (max-width:900px) and (min-width:768px){
+    .author-bio img {
+   width: 65px;
+    height: 65px;
+}
+    .blog-left img {
+    width: 100%;
+    height: 140px;
+   
+}
+    .blog-right {
+    height: 160px;
+}
+  }
+  @media (min-width:1101px){ 
+    .author-bio img {
+  width: 100px;
+    height: 100px;
+}
+  }
+  @media (max-width:1100px) and (min-width:901px){
+    .author-bio img {
+   width: 85px;
+    height: 85px;
+}
+    .blog-left img {
+    width: 100%;
+    height: 120px;
+   
+}
+    .blog-right {
+    height: 130px;
+}
+    
+  }
+  nav.table-of-contents.mobile .toc-head {
+    color: #000;
+    background-color: #fff;
+    padding: 0.8rem 2rem 0.8rem 1.6rem;
+    box-shadow: 0 0.2rem 0.4rem rgb(23 24 47 / 15%);
+/*     border-radius: 0.4rem; */
+    min-width: 13.2rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    overflow: hidden;
+    text-align: left;
+    display:block;
+}
+  .mobile .toc-head:after {
+    content: "\25BC";
+    font-family: Fontello;
+    font-size: 1rem;
+    position: absolute;
+       right: 6%;
+   
+}
+  nav.table-of-contents ol li ol li:last-child {
+    border-bottom: none;
+}
+  .dark-theme nav.table-of-contents.mobile .toc-head{
+     color: #fff;
+    background-color: #27272a;
+    box-shadow: 0px 0px 1px 1px #ffffffc9;
+  }
+  .dark-theme nav.table-of-contents ol{
+     color: #fff;
+    background-color: #27272a;
+/*    box-shadow: 0px 0px 1px 1px #ffffffc9; */
+  }
+  .dark-theme nav.table-of-contents ol li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+  
+  .rtoc-mokuji-content #rtoc-mokuji-title {
+    color: #ffffff;
+}
+  
+  div#rtoc-mokuji-title {
+    background-color: #3f3f3f;
+    padding: 0.9rem 1.6rem;
+    display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.3rem 0.3rem 0 0;
+    height: unset;
+    color: #fff;
+}
+  ul.rtoc-mokuji.mokuji_none.level-1 {
+    background-color: #fff;
+    padding-inline-start: 0px;
+   }
+  .dark-theme ul.rtoc-mokuji.mokuji_none.level-1 {
+    background-color: #27272a;
+   
+   }
+  li.rtoc-item a {
+    display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 400;
+    line-height: 1.7rem;
+    color: #4d4d4d;
+    width: 100%;
+    border-left: solid transparent;
+    border-width: 0.2rem;
+    min-height: 2.8rem;
+          padding: 15px 10px;
+}
+  li.rtoc-item:hover {
+    background-color: #f0f0f0;
+}
+  .dark-theme li.rtoc-item:hover {
+    background-color: #27272a;
+}
+  
+  li.rtoc-item {
+    border-bottom: 0.1rem solid #ededed;
+    min-height: 3.8rem;
+   
+    display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+    align-items: center;
+    transition: all .3s ease-in-out;
+}
+  .dark-theme .rtoc-mokuji-content .rtoc-mokuji li>a {
+    color: #fffefe;
+}
+  .dark-theme .rtoc-mokuji-content #rtoc-mokuji-title {
+    color: #fff7f7;
+}
+  .hide {
+    opacity:0;
+  }
+  .show {
+    opacity:1;
+  }
+  @media (max-width:767px){
+    .author-bio {
+    text-align: center;
+}
+    nav.table-of-contents.desktop-toc {
+    display: none;
+}
+	  div#content {
+       padding-left: 0px; 
+    padding-right: 0px; 
+}
+	 div#content .row {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+	  img.aligncenter { width: 100%; height: auto; }
+	  .table-wrapper, .table-wrapper .sale-table { margin-bottom: 20px; }
+	  .table-wrapper { overflow: auto; }
+	  .table-wrapper .sale-table { width: auto; }
+  }
+nav.table-of-contents.mobile ol {
+    display: none;
+}
+	.row.fashion-head {
+    background-color: #f7fcfe;
+   padding: 10px;
+      border-radius: 15px;
+}
+	.fashion-days {
+    padding: 15px;
+      border-radius: 20px;
+    box-shadow: 0px 0px 3px 0px #b9b9b9a6;
+}
+	.row.fashion-head p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+	p.fashion-title {
+    font-weight: 600;
+    font-size: 20px !important;
+    color: #000;
+}
+	p.fashion-date {
+    font-size: 18px !important;
+    font-weight: 600;
+		    text-align: center;
+}
+	p.fashion-live {
+       font-size: 16px !important;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    background: #ffbd3c;
+    padding: 10px;
+    border-radius: 5px;
+}
+	p.fashion-live span {
+    color: #000;
+    font-weight: 600;
+}
+	.row.upcoming-sale .col-md-6 {
+    margin: 1% 1%;
+    background: #ffbd3c;
+    width: 48%;
+    padding: 10px;
+    border-radius: 10px;
+}
+	.upcoming-sale .col-md-6 {
+    margin: 1% 1%;
+    background: #ffbd3c;
+    width: 48%;
+    padding: 10px;
+    border-radius: 10px;
+}
+	.row.upcoming-sale a {
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+}
+	.upcoming-sale a {
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+}
+	.row.upcoming-sale span {
+    float: right;
+}
+	.upcoming-sale span {
+    float: right;
+}
+	.upcoming-sale a:hover{
+		color:#000;
+		border-bottom:none;
+	}
+	p.sales-title {
+    background-color: #f7fcfe;
+    padding: 5px 10px;
+    color: #000;
+    font-weight: 500;
+    font-size: 17px !important;
+    border-radius: 10px;
+}
+	.sales-highlights {
+    margin-top: 15px;
+}
+	h3#Upcoming_Sales_News {
+    color: #000;
+    font-weight: 600 !important;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+	.sales-highlights li:before {
+    content: "";
+    border-color: transparent #f61036;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 1em;
+    position: relative;
+}
+	.sales-highlights li {
+    list-style: none;
+    font-weight: 600;
+    color: #000;
+}
+	p.sales-title:before {
+    content: "\002B";
+    margin-right: 5px;
+}
+	.sales-highlights li a {
+    color: #000;
+}
+	.row.fashion-head td {
+    border: none;
+    width: auto;
+}
+	p.fashion-offer {
+    text-align: right;
+    font-weight: 800;
+}
+	.sales-start {
+    margin-top: 10px;
+}
+	.row.fashion-head tr:first-child td {
+    font-weight: 800;
+}
+	.dark-theme h3#Upcoming_Sales_News {
+    color: #fff;		
+	}
+	 .dark-theme .sales-highlights li a {
+    color: #fff;
+}
+	.dark-theme p.sales-title{
+		color:#000 !important;
+	}
+	.dark-theme .row.fashion-head table {
+    color: #000 !important;
+}
+	.dark-theme .row.fashion-head p{
+		color: #000 !important;
+	}
+	
+	
+	
+	@media (max-width:767px){
+			.row.fashion-head {
+    text-align: center;
+}
+			p.fashion-live {
+    float: none;
+}
+		.row.upcoming-sale .col-md-6 {
+    margin: 1% 0%;
+    background: #ffbd3c;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+		}
+	
+	@media (max-width:1000px) and (min-width:768px){ 
+		p.fashion-title {
+       font-size: 13px !important;
+   }
+		p.fashion-date {
+    font-size: 12px !important;
+  }
+		p.fashion-live {
+    font-size: 13px !important;
+   }
+		.row.upcoming-sale a {
+       font-size: 11px;
+}
+		.row.upcoming-sale span {
+    float: right;
+    padding-top: 5px;
+}
+		.row.upcoming-sale .col-md-6 {
+      padding: 6px;
+ }
+	}
+	
+	@media (min-width:1200px){
+		
+		.toc{margin-top:-120px;}	
+		
+	}
+	
+	@media (max-width:400px){
+		p.fashion-live {
+    font-size: 14px !important; 
+		}
+	}
+	nav.table-of-contents.mobile ol {
+    height: 170px;
+    overflow-y: scroll;
+}
+	nav.table-of-contents.mobile ol ol{
+		height: auto;
+	}
+	nav.table-of-contents.mobile {
+       z-index: 9999;
+}
+	body.dark-theme .pro-table {
+    color: #000;
+}
+	.row.single > .google-auto-placed { display: none; }</style><style>.post-content table td{padding:15px;}</style><div class="site-content-7"><div id="content"><div class="lazyload upcomin-event" data-bg="https://www.karobargain.com/wp-content/uploads/2021/12/footer-bg.png" style="background-image:url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E);"><p class="up-1">Find Upcoming Sales in India</p><p class="up-2"><i></i></p><ul><li><a href="/blog/flipkart-upcoming-sale/"><noscript><img src="https://www.karobargain.com/wp-content/uploads/2021/12/flipkart-footer.png" alt="Flipkart Upcoming Sale" width="125" height="33" class="img-responsive"></noscript><img src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20125%2033%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2021/12/flipkart-footer.png" alt="Flipkart Upcoming Sale" width="125" height="33" class="lazyload img-responsive"></a></li><li><a href="/blog/amazon-upcoming-sale/"><noscript><img src="https://www.karobargain.com/wp-content/uploads/2021/12/amazon-footer.png" alt="Amazon Upcoming Sale" width="107" height="30" class="img-responsive"></noscript><img src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20107%2030%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2021/12/amazon-footer.png" alt="Amazon Upcoming Sale" width="107" height="30" class="lazyload img-responsive"></a></li><li><a href="/blog/myntra-upcoming-sale/"><noscript><img src="https://www.karobargain.com/wp-content/uploads/2021/12/myntra-footer.png" alt="Myntra Upcoming Sale" width="114" height="40" class="img-responsive"></noscript><img src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20114%2040%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2021/12/myntra-footer.png" alt="Myntra Upcoming Sale" width="114" height="40" class="lazyload img-responsive"></a></li></ul></div></div></div><footer id="colophon" class="site-footer" role="contentinfo"><div class="footer"><div class="lang-switch "><p class="side-tool"><noscript><img src="https://www.karobargain.com/wp-content/uploads/2021/11/Language.png" alt="Language Switcher" class="img-responsive" width="28" height="28"></noscript><img src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2028%2028%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2021/11/Language.png" alt="Language Switcher" class="lazyload img-responsive" width="28" height="28"> English <span class="side-tooltiptext-bottom">Coming Soon</span></p></div><div class="row"><div class="col-sm-3"><noscript><img src="https://www.karobargain.com/wp-content/uploads/2021/11/Logo-1.png" alt="Footer Logo" class="img-responsive footer-logo" width="167" height="71"></noscript><img src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20167%2071%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2021/11/Logo-1.png" alt="Footer Logo" class="lazyload img-responsive footer-logo" width="167" height="71"></div><div class="col-sm-9"><ul class="footer-menu"><li><a href="/">Home</a></li><li><a href="/coupons/">Coupons</a></li><li><a href="/deals/">Deals</a></li><li><a href="/price-history/">Price History</a></li><li><a href="/cashback/">Cashback</a></li><li><a href="https://www.karobargain.com/hindi/blog/">हिंदी ब्लॉग</a></li><li><a href="/blog/">Blogs</a></li><li><a href="/about/">About Us</a></li></ul></div></div><hr><div class="social-icons"><div class="row"><div class="col-sm-4 ter"><ul><li><a href="https://www.karobargain.com/privacy-policy/">Privacy Policy</a></li><li><a href="https://www.karobargain.com/terms-and-conditions/">Terms of Service</a></li></ul></div><div class="col-sm-4"> <a href="https://www.instagram.com/karobargain/" rel="nofollow"><noscript><img src="https://www.karobargain.com/wp-content/uploads/2021/11/instagram.png" alt="Instagram" class="img-responsive" width="21" height="20"></noscript><img src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2021%2020%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2021/11/instagram.png" alt="Instagram" class="lazyload img-responsive" width="21" height="20"></a> <a href="https://www.facebook.com/karobargain" target="_blank" rel="nofollow"><noscript><img src="https://www.karobargain.com/wp-content/uploads/2021/11/Facebook.png" alt="Facebook" class="img-responsive" width="11" height="20"></noscript><img src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2011%2020%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2021/11/Facebook.png" alt="Facebook" class="lazyload img-responsive" width="11" height="20"></a> <a href="https://twitter.com/karobargain" target="_blank" rel="nofollow"><noscript><img src="https://www.karobargain.com/wp-content/uploads/2021/11/twitter.png" alt="Twitter" class="img-responsive" width="25" height="21"></noscript><img src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2025%2021%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2021/11/twitter.png" alt="Twitter" class="lazyload img-responsive" width="25" height="21"></a> <a href="https://web.telegram.org/k/#@karobargainn" target="_blank" rel="nofollow"><noscript><img src="https://www.karobargain.com/wp-content/uploads/2021/11/Telegram.png" alt="Telegram" class="img-responsive" width="25" height="20"></noscript><img src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2025%2020%22%3E%3C/svg%3E' data-src="https://www.karobargain.com/wp-content/uploads/2021/11/Telegram.png" alt="Telegram" class="lazyload img-responsive" width="25" height="20"></a></div><div class="col-sm-4 copy-right"><p>2023 &copy; KaroBargain.com is owned by Fredsan online Ventures Pvt Limited. All Rights Reserved.</p></div></div></div></footer></div> <script type="rocketlazyloadscript">if($(window).width() <= 1024){
+	$(".side-menu-toggle").on("click",function(){
+			 $(".side-menu").show()   
+	});
+}
+
+ $(".search").on("click",function(){
+          $(".side-menu").show() 
+      
+});
+  
+  $(".close-bar").on("click",function(){
+       $(".side-menu").hide(100);
+  
+});</script> <script type="rocketlazyloadscript">$(".sub-menu-mobile-toggle").on("click",function(){
+			   $(".mobile-sub-menu-left").show();   
+});
+$(".sub-menu-close-bar").on("click",function(){
+		   $(".mobile-sub-menu-left").hide(100);
+	
+});</script> <style>.dark-theme .open-search svg, .dark-theme .close-search svg{ fill: #fff; }</style> <script>//  $(document).ready(function(){
+//         $(".search-img").click(function(){
+//   $(".search-form").animate({   width: "show"  });
+//           // $(".search-form").show(100);
+//       $('.bot-search').addClass('extend');
+//    $('.search-form').addClass('extend');
+//      $(".search-img").hide(); 
+//      $(".bot-search").attr("placeholder", "Search...");
+
+//         });
+//     });</script> <script type="rocketlazyloadscript">const toggle = document.querySelector('.toggle-theme input[type="checkbox"]');
+
+function toggleTheme(event) {
+  if (event.target.checked) {
+    document.body.className = 'dark-theme';
+    $('.logo img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Logo-1.png');
+    $('.side-menu-toggle img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Burger-Menu-1.png');
+	$('.desk-search').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Search-1.png'); 
+     $('.one img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Clothing-1.png');
+     $('.two img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Travel-1.png'); 
+     $('.three img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Electronic-1.png'); 
+     $('.four img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Beauty-1.png'); 
+     $('.five img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Food-1.png'); 
+     $('.six img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Home-1.png'); 
+    $('.city-arrow').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/City-Arrow-1.png');
+    $('.city-loc').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Location.png');  
+    
+     var now = new Date();
+  var time = now.getTime();
+  var expireTime = time + 1000*36000;
+  now.setTime(expireTime);
+     var dark = 'dark-theme';
+    var path = 'https://www.karobargain.com/';
+var cookie_date = now.toUTCString();
+final_cookie = "Dark =" + encodeURIComponent(dark) + ";expires_on = " + cookie_date + ";path =/";
+document.cookie = final_cookie;
+  } else {
+    document.body.className = 'light-theme';
+     $('.logo img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Logo.png');
+     $('.side-menu-toggle img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Burger-Menu.png');
+    $('.one img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Clothing.png');
+     $('.two img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Travel.png'); 
+     $('.three img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Electronic.png'); 
+     $('.four img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Beauty.png'); 
+     $('.five img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Food.png'); 
+     $('.six img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/home.png');  
+    $('.city-loc').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Loctation.png'); 
+    $('.city-arrow').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/City-Arrow.png');
+	$('.desk-search').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Search.png'); 
+    
+     var now = new Date();
+  var time = now.getTime();
+  var expireTime = time + 1000*36000;
+  now.setTime(expireTime);
+     var dark = 'light-theme';
+var cookie_date = now.toUTCString();
+final_cookie = "Dark =" + encodeURIComponent(dark) + ";expires_on = " + cookie_date + ";path =/";
+document.cookie = final_cookie;
+  }
+}
+
+toggle.addEventListener('change', toggleTheme);</script> <script type="rocketlazyloadscript">$('#mode-change').click(function(){
+    if (!$('body').hasClass('dark-theme')) {
+     $('body').addClass('dark-theme');
+     $('body').removeClass('light-theme');
+        $('.logo img').attr('src', 'https://www.karobargain.com/wp-content/uploads/2021/11/Logo-1.png');
+           $('.mode img').attr('src', 'https://www.karobargain.com/wp-content/uploads/2021/11/Night-1.png');
+    $('.notifications img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/notification.png'); 
+    $('.right-mobile-search img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Search-1.png'); 
+    $('.side-menu-toggle img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Burger-Menu-1.png');
+     $('.one img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Clothing-1.png');
+     $('.two img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Travel-1.png'); 
+     $('.three img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Electronic-1.png'); 
+     $('.four img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Beauty-1.png'); 
+     $('.five img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Food-1.png'); 
+     $('.six img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Home-1.png'); 
+    $('.city-arrow').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/City-Arrow-1.png');
+    $('.city-loc').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Location.png');  
+    
+     var now = new Date();
+  var time = now.getTime();
+  var expireTime = time + 1000*36000;
+  now.setTime(expireTime);
+     var dark = 'dark-theme';
+    var path = 'https://www.karobargain.com/';
+var cookie_date = now.toUTCString();
+final_cookie = "Dark-Mobile =" + encodeURIComponent(dark) + ";expires_on = " + cookie_date + ";path =/";
+document.cookie = final_cookie;
+        }
+  else  {
+       
+       $('body').removeClass('dark-theme');
+    $('body').addClass('light-theme');
+     $('.logo img').attr('src', 'https://www.karobargain.com/wp-content/uploads/2021/11/Logo.png');
+     $('.mode img').attr('src', 'https://www.karobargain.com/wp-content/uploads/2021/11/Day.png');
+    $('.notifications img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Notification.png'); 
+    $('.right-mobile-search img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Search.png');
+    $('.side-menu-toggle img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Burger-Menu.png');
+      $('.one img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Clothing.png');
+     $('.two img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Travel.png'); 
+     $('.three img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Electronic.png'); 
+     $('.four img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Beauty.png'); 
+     $('.five img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Food.png'); 
+     $('.six img').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/home.png');  
+    $('.city-loc').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/Loctation.png'); 
+    $('.city-arrow').attr('src','https://www.karobargain.com/wp-content/uploads/2021/11/City-Arrow.png');
+     var now = new Date();
+  var time = now.getTime();
+  var expireTime = time + 1000*36000;
+  now.setTime(expireTime);
+     var dark = 'light-theme';
+var cookie_date = now.toUTCString();
+final_cookie = "Dark-Mobile =" + encodeURIComponent(dark) + ";expires_on = " + cookie_date + ";path =/";
+document.cookie = final_cookie;
+    }
+});</script> <script>window.onload = function(){
+	var isInIFrame = (window.location != window.parent.location);
+	if(isInIFrame==false){
+if (document.body.classList.contains('dark-theme')) {
+	console.log("inside");
+ 	document.querySelector(".mycheck").checked = true;
+	document.querySelector('.logo img').setAttribute("src","https://www.karobargain.com/wp-content/uploads/2021/11/Logo-1.png");
+	document.querySelector('.mobile-logo img').setAttribute("src","https://www.karobargain.com/wp-content/uploads/2021/11/Logo-1.png");
+	document.querySelector('.side-menu-toggle img').setAttribute("src","https://www.karobargain.com/wp-content/uploads/2021/11/Burger-Menu-1.png");
+	document.querySelector('.mobile-burger img').setAttribute("src","https://www.karobargain.com/wp-content/uploads/2021/11/Burger-Menu-1.png");
+	document.querySelector('.desktop-search img').setAttribute("src","https://www.karobargain.com/wp-content/uploads/2021/11/Search-1.png");
+	if(document.querySelector('.one img')){
+		document.querySelector('.one img').setAttribute("src","https://www.karobargain.com/wp-content/uploads/2021/11/Clothing-1.png");
+     document.querySelector('.two img').setAttribute('src','https://www.karobargain.com/wp-content/uploads/2021/11/Travel-1.png'); 
+     document.querySelector('.three img').setAttribute('src','https://www.karobargain.com/wp-content/uploads/2021/11/Electronic-1.png'); 
+     document.querySelector('.four img').setAttribute('src','https://www.karobargain.com/wp-content/uploads/2021/11/Beauty-1.png'); 
+     document.querySelector('.five img').setAttribute('src','https://www.karobargain.com/wp-content/uploads/2021/11/Food-1.png'); 
+     document.querySelector('.six img').setAttribute('src','https://www.karobargain.com/wp-content/uploads/2021/11/Home-1.png'); 
+	}
+    document.querySelector('.city-arrow').setAttribute('src','https://www.karobargain.com/wp-content/uploads/2021/11/City-Arrow-1.png');
+    document.querySelector('.city-loc').setAttribute('src','https://www.karobargain.com/wp-content/uploads/2021/11/Location.png');
+    document.querySelector('.notifications img').setAttribute('src','https://www.karobargain.com/wp-content/uploads/2021/11/notification.png'); 
+  document.querySelector('.mode img').setAttribute('src','https://www.karobargain.com/wp-content/uploads/2021/11/Night-1.png'); 
+    document.querySelector('.right-mobile-search img').setAttribute('src','https://www.karobargain.com/wp-content/uploads/2021/11/Search-1.png'); 
+} else {
+  document.querySelector('.logo img').setAttribute('src','https://www.karobargain.com/wp-content/uploads/2021/11/Logo.png');
+     document.querySelector('.side-menu-toggle img').setAttribute('src','https://www.karobargain.com/wp-content/uploads/2021/11/Burger-Menu.png');
+	document.querySelector('.mobile-burger img').setAttribute("src","https://www.karobargain.com/wp-content/uploads/2021/11/Burger-Menu.png");
+	document.querySelector('.desktop-search img').setAttribute("src","https://www.karobargain.com/wp-content/uploads/2021/11/Search.png");
+	if(document.querySelector('.one img')){
+    document.querySelector('.one img').setAttribute('src','https://www.karobargain.com/wp-content/uploads/2021/11/Clothing.png');
+     document.querySelector('.two img').setAttribute('src','https://www.karobargain.com/wp-content/uploads/2021/11/Travel.png'); 
+     document.querySelector('.three img').setAttribute('src','https://www.karobargain.com/wp-content/uploads/2021/11/Electronic.png'); 
+     document.querySelector('.four img').setAttribute('src','https://www.karobargain.com/wp-content/uploads/2021/11/Beauty.png'); 
+     document.querySelector('.five img').setAttribute('src','https://www.karobargain.com/wp-content/uploads/2021/11/Food.png'); 
+     document.querySelector('.six img').setAttribute('src','https://www.karobargain.com/wp-content/uploads/2021/11/home.png');  
+	}
+    document.querySelector('.city-loc').setAttribute('src','https://www.karobargain.com/wp-content/uploads/2021/11/Loctation.png'); 
+    document.querySelector('.city-arrow').setAttribute('src','https://www.karobargain.com/wp-content/uploads/2021/11/City-Arrow.png');
+	if(document.querySelector('.notifications img')){
+  		document.querySelector('.notifications img').setAttribute('src','https://www.karobargain.com/wp-content/uploads/2021/11/Notification.png'); 
+	}
+	if(document.querySelector('.mode img')){
+  		document.querySelector('.mode img').setAttribute('src','https://www.karobargain.com/wp-content/uploads/2021/11/Day.png'); 
+	}
+	if(document.querySelector('.right-mobile-search img')){
+    	document.querySelector('.right-mobile-search img').setAttribute('src','https://www.karobargain.com/wp-content/uploads/2021/11/Search.png');
+	}
+}}
+};</script> <script type="rocketlazyloadscript">$('.read-more-link').click(function() {
+  $('.more-text').slideToggle();
+  if ($('.read-more-link').text() == "Read More") {
+    $(this).text("Read Less")
+     $('.read-more').addClass('less');
+  } else {
+    $(this).text("Read More")
+     $('.read-more').removeClass('less');
+  }
+});</script> <script type="rocketlazyloadscript">$('.top-read-more-link').click(function() {
+  $('.top-more-text').slideToggle();
+  if ($('.top-read-more-link').text() == "Read More") {
+    $(this).text("Read Less")
+     $('.top-read-more').addClass('less');
+  } else {
+    $(this).text("Read More")
+     $('.top-read-more').removeClass('less');
+  }
+});</script> <script type="rocketlazyloadscript">$('.static-loc').click(function() {
+  $('.locations').slideToggle();
+  });</script> <script type="rocketlazyloadscript">$('.user-menu').click(function() {
+  $('.user-category').slideToggle();
+  });</script> <style>.open-search{cursor:pointer;}
+	@media screen and (min-width:1200px){
+		.logged-username{
+			margin-left:20px;
+		}
+	}
+body.search.search-results.logged-in.wp-embed-responsive.is-light-theme.hfeed.has-main-navigation{
+	width:auto !important;
+	
+}
+	
+.side-tool .side-tooltiptext-bottom {
+    visibility: hidden;
+    background-image: linear-gradient(to left, #ff3759 , #e70126);
+    color: #fff;
+    text-align: center;
+    border-radius: 25px;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-left: 5px;
+    position: absolute;
+    z-index: 1;
+    right: 35px;
+    bottom: 60px;
+}
+  .side-tool:hover .side-tooltiptext-bottom {
+  visibility: visible;
+} 
+	#refer{	
+    box-shadow: 0 0 6px 0 #c4d3fd;
+    border-radius: 15px;
+		padding: 20px;}
+	.referral-code-details{border:none !important;padding:0px !important;}
+	.newrt45 p{text-align: left;
+    color: #959BA2;
+    font-weight: 500;}
+	.new99{ background: #F61137;   border-radius: 25px;
+    padding: 10px;margin-bottom:30px;}
+	
+	@media screen and (min-width:1100px){
+		#refer{margin-bottom:20px;}
+		.new99{width: 80%;
+			    background: #F61137;
+    padding: 10px;margin-bottom:30px;
+    border-radius: 25px;
+		margin: 0% auto;}
+	.new67{    width: 60%;
+		margin: 0% auto;}}
+	.newrt45{background: #F2F8FF;
+    padding: 20px;
+    border-radius: 25px;}
+	.new67{box-shadow: 0 0 6px 0 #c4d3fd;
+    padding: 10px;
+    border-radius: 25px;}
+	.new67 .p18{text-align: left;
+    font-size: 2rem !important;
+    color: #343638;
+    font-weight: 800;line-height: 2.4rem;
+    margin-bottom: 0px;}
+	.new67 .p19{text-align: left;color:#acb0b7;
+    font-size: 1.3rem !important;margin-bottom: 0px;
+    font-weight: 500;}
+	.new99 .p25{text-align: left;
+    color: #fff;
+    font-weight: 600;
+    font-size: 2rem !important;
+    margin-bottom: 0px;}
+	.new99 .p24{text-align: left;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 0px;
+    font-size: 1.6rem !important;}
+	#refer .p13{
+		margin-top:20px;
+		font-size: 1.2rem !important;
+    font-weight: 500;
+	}
+	.side-menu{display:none}
+	@media screen and (max-width:760px){
+		ul.share li{	width: 33%;}
+		.new-last{padding: 0px !Important;}
+		.newrt45 p{text-align:Center;}
+		.new67 .col-2:first-child{padding:0px !important;}
+		.new67 .col-2:last-child img{padding-top:10px !important;}
+		.new67 .p18{font-size:16px !important;line-height: 1.2rem !important;}
+		.new67 .p19{    font-size: 14px !important;
+    line-height: 1.2rem !important;}
+		div#copy_code{margin-bottom:20px;}
+		#refer h2{
+			font-size:1.4rem !important;
+		}
+	}
+	@media screen and (max-width:700px){
+		.dark-theme .category-desc img{	    background: #fff;
+    padding: 10px;
+    border-radius: 50%;
+	}
+	/*.mobile-burger{display:none;}*/
+	header.sticky { border-bottom: 1px solid #ccc; box-shadow: none; }
+	.notifications.side-tool { display: none; }
+	ol > li::marker { content: counters(list-item, '.') '. '; }</style> <script type="text/javascript" id="flying-scripts">const loadScriptsTimer=setTimeout(loadScripts,6*1000);const userInteractionEvents=["mouseover","keydown","touchstart","touchmove","wheel"];userInteractionEvents.forEach(function(event){window.addEventListener(event,triggerScriptLoader,{passive:!0})});function triggerScriptLoader(){loadScripts();clearTimeout(loadScriptsTimer);userInteractionEvents.forEach(function(event){window.removeEventListener(event,triggerScriptLoader,{passive:!0})})}
+function loadScripts(){
+	var isInIFrame = (window.location != window.parent.location);
+	if(isInIFrame==false){
+	document.querySelectorAll("script[data-type='lazy']").forEach(function(elem){elem.setAttribute("src",elem.getAttribute("data-src"))});
+	}
+	}</script> <script>document.body.classList.remove("no-js");</script> <script>if ( -1 !== navigator.userAgent.indexOf( 'MSIE' ) || -1 !== navigator.appVersion.indexOf( 'Trident/' ) ) {
+		document.body.classList.add( 'is-IE' );
+	}</script> <noscript><style>.lazyload{display:none;}</style></noscript><script data-noptimize="1">window.lazySizesConfig=window.lazySizesConfig||{};window.lazySizesConfig.loadMode=1;</script><script async data-noptimize="1" src='https://www.karobargain.com/wp-content/plugins/autoptimize/classes/external/js/lazysizes.min.js?ao_version=3.1.5'></script> <script id='contact-form-7-js-extra'>var wpcf7 = {"api":{"root":"https:\/\/www.karobargain.com\/wp-json\/","namespace":"contact-form-7\/v1"}};</script> <script id='twenty-twenty-one-ie11-polyfills-js-after'>( Element.prototype.matches && Element.prototype.closest && window.NodeList && NodeList.prototype.forEach ) || document.write( '<script src="https://www.karobargain.com/wp-content/cache/autoptimize/js/autoptimize_single_a32ca91d60e1f56ebb9c3a93a5f1ff30.js"></scr' + 'ipt>' );</script> <script id='wd-asl-ajaxsearchlite-js-before'>window.ASL = typeof window.ASL !== 'undefined' ? window.ASL : {}; window.ASL.wp_rocket_exception = "DOMContentLoaded"; window.ASL.ajaxurl = "https:\/\/www.karobargain.com\/wp-admin\/admin-ajax.php"; window.ASL.backend_ajaxurl = "https:\/\/www.karobargain.com\/wp-admin\/admin-ajax.php"; window.ASL.js_scope = "jQuery"; window.ASL.asl_url = "https:\/\/www.karobargain.com\/wp-content\/plugins\/ajax-search-lite\/"; window.ASL.detect_ajax = 1; window.ASL.media_query = 4756; window.ASL.version = 4756; window.ASL.pageHTML = ""; window.ASL.additional_scripts = [{"handle":"wd-asl-ajaxsearchlite","src":"https:\/\/www.karobargain.com\/wp-content\/plugins\/ajax-search-lite\/js\/min\/plugin\/optimized\/asl-prereq.js","prereq":[]},{"handle":"wd-asl-ajaxsearchlite-core","src":"https:\/\/www.karobargain.com\/wp-content\/plugins\/ajax-search-lite\/js\/min\/plugin\/optimized\/asl-core.js","prereq":[]},{"handle":"wd-asl-ajaxsearchlite-vertical","src":"https:\/\/www.karobargain.com\/wp-content\/plugins\/ajax-search-lite\/js\/min\/plugin\/optimized\/asl-results-vertical.js","prereq":["wd-asl-ajaxsearchlite"]},{"handle":"wd-asl-ajaxsearchlite-autocomplete","src":"https:\/\/www.karobargain.com\/wp-content\/plugins\/ajax-search-lite\/js\/min\/plugin\/optimized\/asl-autocomplete.js","prereq":["wd-asl-ajaxsearchlite"]},{"handle":"wd-asl-ajaxsearchlite-load","src":"https:\/\/www.karobargain.com\/wp-content\/plugins\/ajax-search-lite\/js\/min\/plugin\/optimized\/asl-load.js","prereq":["wd-asl-ajaxsearchlite-autocomplete"]}]; window.ASL.script_async_load = false; window.ASL.init_only_in_viewport = true; window.ASL.font_url = "https:\/\/www.karobargain.com\/wp-content\/plugins\/ajax-search-lite\/css\/fonts\/icons2.woff2"; window.ASL.css_async = false; window.ASL.highlight = {"enabled":false,"data":[]}; window.ASL.analytics = {"method":0,"tracking_id":"","string":"?ajax_search={asl_term}","event":{"focus":{"active":1,"action":"focus","category":"ASL","label":"Input focus","value":"1"},"search_start":{"active":0,"action":"search_start","category":"ASL","label":"Phrase: {phrase}","value":"1"},"search_end":{"active":1,"action":"search_end","category":"ASL","label":"{phrase} | {results_count}","value":"1"},"magnifier":{"active":1,"action":"magnifier","category":"ASL","label":"Magnifier clicked","value":"1"},"return":{"active":1,"action":"return","category":"ASL","label":"Return button pressed","value":"1"},"facet_change":{"active":0,"action":"facet_change","category":"ASL","label":"{option_label} | {option_value}","value":"1"},"result_click":{"active":1,"action":"result_click","category":"ASL","label":"{result_title} | {result_url}","value":"1"}}};</script> <script>/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",(function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())}),!1);</script> <script defer src="https://www.karobargain.com/wp-content/cache/autoptimize/js/autoptimize_b31d9af5ca254b76679b706793060d7c.js"></script></body></html><script>function get_nodes_containing_text(selector, text) {
+		const elements = [...document.querySelectorAll(selector)];
+
+		return elements.filter(
+		  (element) =>
+			element.childNodes[0]
+			&& element.childNodes[0].nodeValue
+			&& RegExp(text, "u").test(element.childNodes[0].nodeValue.trim())
+		);
+	}
+	function get_review(shortcode_array){
+		let shortcodes = shortcode_array;
+		console.log(shortcodes);
+		if(shortcodes.length != 0){
+			console.log(shortcodes[0].textContent.trim());
+			jQuery.ajax({
+				url: 'https://www.karobargain.com/wp-admin/admin-ajax.php',
+				type : 'post',
+				data: {
+					action: "get_review",
+					shortcode: shortcodes[0].textContent.trim(),			
+				},
+				success: function (data) {
+					shortcodes[0].innerHTML = data;
+					shortcodes.shift();
+					get_review(shortcodes);
+				}
+			});
+		}
+	}</script> <script type="rocketlazyloadscript">let shortcodes = get_nodes_containing_text(".post-content p","amazon_api");
+ /*shortcode_array = [];
+ shortcodes.forEach(function(pEl) { 	
+ 	var shortcode = pEl.textContent.trim();	
+	shortcode_array.push(shortcode);
+ });*/
+ get_review(shortcodes);</script>

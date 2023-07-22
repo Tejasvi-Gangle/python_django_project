@@ -1,0 +1,84 @@
+{%extends 'index.html'%}
+{%block content%}
+<style>
+	table{
+		width: 100%;
+        margin-top: 10px;
+	}
+th,td,tr{
+border:2px solid gray;
+height: 50px;
+width: 200px;
+text-align: center;}
+
+h3{
+color:gray}
+th{
+color:gray}
+button{
+	border: none;
+	background-color: gray;
+	color: white;
+	border-radius: 20px;
+}
+a{
+	text-decoration: none;
+}
+</style>
+<table align="center" id="table">
+    <h3 align="center" style="margin-top: 30px;">All are Your Valueable Feedbacks Here</h3>
+
+  <thead>
+     <tr>
+        <th>Name</th>
+		<th>Title</th>
+		<th>Description</th>
+		<th>Created at</th>
+		<th>Updated at</th>
+		<th>Update/Delete</th>
+     </tr>	 
+  
+  </thead>
+  
+  <tbody>
+  
+  {%for products in reviews%}
+     <tr>
+	   <td>{{products.Name}}</td>
+	   <td>{{products.Title}}</td>
+	   <td>{{products.Description}}</td>
+	   
+	   <td>{{products.Created_at}}</td>
+	   <td>{{products.Updated_at}}</td>
+	   
+	 
+	  
+	 
+	 
+	 </tr>
+  {%endfor%}
+  </tbody>
+
+</table>
+<br><br>
+<button>
+	<a id="downloadLink" onclick="eportF(this)"> Download Into Excel</a>
+</button>
+
+<script>
+	function eportF(elem){
+		var table=document.getElementById('table');
+		var html=table.outerHTML;
+		//set your html table into url
+		var url='data:application/vnd.ms-excel,'+ escape(html);
+		//setting the elements
+		elem.setAttribute("href",url);
+		//choos ethe name of the file
+		elem.setAttribute("download","export_data.xls");
+		return false;
+
+
+	}
+</script>
+
+{%endblock%}

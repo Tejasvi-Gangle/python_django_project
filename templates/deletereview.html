@@ -1,0 +1,14 @@
+{%extends 'index.html'%}
+
+{%block content%}
+
+<form method="post">
+
+    {%csrf_token%}
+    
+    <p>Are You Sure ?</p>
+    <p>Want to delete! "{{products.title}}"</p>
+    <button type="submit" name="delete">Delete Review</button>
+
+</form>
+{%endblock%}

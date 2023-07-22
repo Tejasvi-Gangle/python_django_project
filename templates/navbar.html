@@ -1,0 +1,197 @@
+<style>
+  
+ header{
+  height: 100px;
+ }
+  img{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: inherit;
+}
+
+nav {
+  background-color: #4e96b3;
+  color: #fff;
+  justify-content: space-between;
+  text-align: center;
+ 
+}
+
+nav ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+nav ul li {
+  position: relative;
+  white-space: nowrap;
+}
+
+nav ul li:hover {
+  background-color: #f97676;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  background-color: #c97676;
+}
+
+nav > ul {
+  display: flex;
+}
+
+nav > ul > li ul {
+  top: 100%;
+  left: 0;
+}
+
+nav > ul > li ul ul {
+  top: 0;
+  left: 100%;
+}
+
+nav > ul > li:hover > ul,
+nav > ul > li li:hover > ul {
+  display: inherit;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1em;
+  
+
+}
+
+nav a:not(:only-child) {
+  padding-right: 2em;
+}
+
+nav a:not(:only-child)::after {
+  content: "+";
+  position: absolute;
+  right: 1em;
+}
+.home{
+  margin-left: 60px;
+
+}
+
+
+
+</style>
+<header style="position: relative";>
+  <div class="container-fluid" style="display: inline;">
+    <img style="width: 50px; height: 40px; background-color: palevioletred; margin-left: 60px;margin-top: 0;"  src="https://th.bing.com/th/id/OIP.CDXYc52tr8UjbpMyYkLAFAAAAA?pid=ImgDet&rs=1" alt="Shine">
+   <a href="http://127.0.0.1:8000/products/cart/"><i class="fa fa-shopping-bag" aria-hidden="true" style="margin-left: 1030px;color: black;width: 30px;height: 20px;"></i></a>
+
+  </div>
+  <nav>
+    <ul>
+      <li class="home"><a href="http://127.0.0.1:8000/"><b>HOME</b></a></li>
+      <li>
+        <a href="http://127.0.0.1:8000/products/makeup/" ><b>MAKEUP</b></a>
+        <ul>
+          <li >
+            <a href="#"><b>LIPS</b></a>
+            <ul >
+              <li><a href="http://127.0.0.1:8000/products/makeup/" >Lipstick</a></li>
+              <li><a href="http://127.0.0.1:8000/products/makeup/" >Crayon Lipstick</a></li>
+              <li><a href="http://127.0.0.1:8000/products/makeup/" >Matte Lipstick</a></li>
+              <li><a href="http://127.0.0.1:8000/products/makeup/" >Hi-Shine Lipstick</a></li>
+              <li><a href="http://127.0.0.1:8000/products/makeup/" >Lip Gloss</a></li>
+              <li><a href="http://127.0.0.1:8000/products/makeup/" >Lip Liner</a></li>
+              <li><a href="http://127.0.0.1:8000/products/makeup/" >Lip Balm</a></li> 
+            </ul>
+          </li>
+          <li>
+            <a href="#"><b>NAILS</b></a>
+            <ul>
+              <li><a href="http://127.0.0.1:8000/products/makeup/">Nail Lacquer</a></li>
+              <li><a href="http://127.0.0.1:8000/products/makeup/">Nail Polish</a></li>
+              <li><a href="http://127.0.0.1:8000/products/makeup/">Matte Nail Polish</a></li>
+              <li><a href="http://127.0.0.1:8000/products/makeup/">Nail Polish Sets</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#"><b>FACE</b></a>
+            <ul>
+              <li><a href="http://127.0.0.1:8000/products/makeup/">Fixing Powder</a></li>
+              <li><a href="http://127.0.0.1:8000/products/makeup/">Primer</a></li>
+              <li><a href="http://127.0.0.1:8000/products/makeup/">Concealer</a></li>
+              <li><a href="http://127.0.0.1:8000/products/makeup/">Foundation</a></li>
+              <li><a href="http://127.0.0.1:8000/products/makeup/">Compact Powder</a></li>
+              <li><a href="http://127.0.0.1:8000/products/makeup/">Setting Powder</a></li>
+              <li><a href="http://127.0.0.1:8000/products/makeup/">Highlighter</a></li>
+              <li><a href="http://127.0.0.1:8000/products/makeup/">Blush</a></li>
+              <li><a href="http://127.0.0.1:8000/products/makeup/">Bronzer</a></li>
+              <li><a href="http://127.0.0.1:8000/products/makeup/">Sindor</a></li>
+              <li><a href="http://127.0.0.1:8000/products/makeup/">Cheek Stain</a></li> 
+            </ul>
+          </li> 
+        </ul>
+      </li>
+
+      <li>
+        <a href="http://127.0.0.1:8000/products/haircare/"><b>HAIR CARE</b></a>
+        <ul>
+          <li>
+            <a href="http://127.0.0.1:8000/products/haircare/"><b>HAIR CARE</b></a>
+            <ul>
+              <li><a href="http://127.0.0.1:8000/products/haircare/">Shampoo</a></li>
+              <li><a href="http://127.0.0.1:8000/products/haircare/">Conditioner</a></li>
+              <li><a href="http://127.0.0.1:8000/products/haircare/">Hair Oil</a></li>
+              <li><a href="http://127.0.0.1:8000/products/haircare/">Serum</a></li>
+              <li><a href="http://127.0.0.1:8000/products/haircare/">Hair Mask</a></li>
+              <li><a href="http://127.0.0.1:8000/products/haircare/">Combos</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="http://127.0.0.1:8000/products/skincare/"><b>SKIN CARE</b></a>
+        <ul>
+          <li><a href="http://127.0.0.1:8000/products/skincare/">Moisturizer</a></li>
+          <li><a href="http://127.0.0.1:8000/products/skincare/">Night Cream </a></li>
+          <li><a href="http://127.0.0.1:8000/products/skincare/">Eye Cream</a></li>
+          <li><a href="http://127.0.0.1:8000/products/skincare/">Body Lotion</a></li>
+          <li><a href="http://127.0.0.1:8000/products/skincare/">Serum  </a></li>
+          <li><a href="http://127.0.0.1:8000/products/skincare/">Sunscreen  </a></li>
+          <li><a href="http://127.0.0.1:8000/products/skincare/">Skin Care Kits</a></li>
+          <li>
+            <a href="http://127.0.0.1:8000/products/skincare/"><b>CLEANSING PRODUCTS</b></a>
+            <ul>
+              <li><a href="http://127.0.0.1:8000/products/skincare/">Cleanser</a></li>
+              <li><a href="http://127.0.0.1:8000/products/skincare/">Face Wash</a></li>
+              <li><a href="http://127.0.0.1:8000/products/skincare/">Scrub</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="http://127.0.0.1:8000/products/skincare/"><b>MASK</b></a>
+            <ul>
+              <li><a href="http://127.0.0.1:8000/products/skincare/">Sheet Mask</a></li>
+              <li><a href="http://127.0.0.1:8000/products/skincare/">Face Pack</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      
+      <li><a href="http://127.0.0.1:8000/products/addreview"><b>ADD REVIEWS</b></a></li>
+      <li><a href="http://127.0.0.1:8000/all/"><b>ALL REVIEWS</b></a></li>
+      <li><a href="http://127.0.0.1:8000/products/contact"><b>CONTACT</b></a></li>
+    </ul>
+  </nav>
+</header>    
